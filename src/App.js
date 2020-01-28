@@ -1,25 +1,54 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReactFullpage from "@fullpage/react-fullpage";
+import "fullpage.js/vendors/scrolloverflow"; 
 
-function App() {
+import Introduction from './views/Introduction';
+import WhoAmI from './views/WhoAmI';
+import Experiences from './views/Experiences';
+
+
+const App = () => {
+
+  const onLeave = (origin, destination, direction) => {
+    console.log("Leaving section " + origin.index);
+  }
+  const afterLoad = (origin, destination, direction) => {
+    console.log("After load: " + destination.index);
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ReactFullpage
+        scrollOverflow
+        sectionsColor={["orange", "purple", "green"]}
+        onLeave={onLeave.bind(this)}
+        afterLoad={afterLoad.bind(this)}
+        render={({ state, fullpageApi }) => {
+          return (
+            <div id="fullpage-wrapper">
+              <Introduction/>
+              <WhoAmI/>
+              <Experiences/>
+              <div className="section">
+                <div className="slide">
+                  <h3>Slide 2.1</h3>
+                </div>
+                <div className="slide">
+                  <h3>Slide 2.2</h3>
+                </div>
+                <div className="slide">
+                  <h3>Slide 2.3</h3>
+                </div>
+              </div>
+              <div className="section">
+                <h3>Section 3</h3>
+                <button onClick={() => fullpageApi.moveTo(1, 0)}>
+                  Move top
+                </button>
+              </div>
+            </div>
+          );
+        }}
+      />
   );
 }
 

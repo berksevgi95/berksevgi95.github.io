@@ -1,13 +1,184 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(25%);
+  }
+  to { opacity: 1 }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+#section1 {
+  color: #fff;
+}
+
+.fp-section {
+  text-align: center;
+}
+
+button {
+  padding: 0.93em 1.87em;
+  background: #35495e;
+  border-radius: 5px;
+  border-color: transparent;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+
+
+
+
+
+
+
+
+
+
+.introduction{
+  background: linear-gradient(90deg, rgba(81,190,179,1) 35%, rgba(0,110,133,1) 100%);
+}
+
+.profile-picture {
+  margin : auto;
+  position:relative;
+  overflow:hidden;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.profile-picture img {
+  position:absolute;
+  height: auto;
+  width: auto;    
+  max-width:100%;
+  left : 0;
+
+}
+
+.centered img {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.titleanimation {
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  animation-name: fadeIn
+}
+
+.name {
+  color : white;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
+  animation-delay: .5s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  font-size: 75px;
+  font-weight: lighter;
+}
+
+.abstract {
+  color : white;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.abstract .t-0 {
+  margin-right: 15px;
+  animation-delay: 1.5s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.abstract .t-1 {
+  margin-right: 15px;
+  margin-left: 15px;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.abstract .t-2 {
+  margin-left: 15px;
+  animation-delay: 2.5s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+
+
+.arrow {
+  color: #fff;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  position : absolute; 
+  bottom : 0px;
+  width : 100%; 
+  left : 0px; 
+  height : 70px
+}
+.arrow span {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+.whoami {
+  background: linear-gradient(90deg, rgba(205,118,60,1) 0%, rgba(255,149,0,1) 100%);
+}
+
+
+
+
+.experiences {
+  background: linear-gradient(90deg, rgba(0,111,230,1) 0%, rgba(0,65,134,1) 100%);
+}
+
+.titleexperiences {
+  color : white;
+  font-family: 'Quicksand', sans-serif;
+  margin : auto;
+  animation-delay: .5s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  font-size: 75px;
 }
