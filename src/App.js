@@ -5,6 +5,8 @@ import "fullpage.js/vendors/scrolloverflow";
 import Introduction from './views/Introduction';
 import WhoAmI from './views/WhoAmI';
 import Experiences from './views/Experiences';
+import TechnicalSkills from './views/TechnicalSkills';
+import PersonalInformation from './views/PersonalInformation';
 
 
 const App = () => {
@@ -27,7 +29,9 @@ const App = () => {
             <div id="fullpage-wrapper">
               <Introduction/>
               <WhoAmI/>
+              <PersonalInformation/>
               <Experiences/>
+              <TechnicalSkills/>
               <div className="section">
                 <div className="slide">
                   <h3>Slide 2.1</h3>

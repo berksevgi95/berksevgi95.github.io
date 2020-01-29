@@ -7,13 +7,13 @@ const Introduction = ({
         <div style={{width : '100%', height : '100%', display : 'flex'}}>
             <div style={{margin : 'auto'}}>
                 <div style={{display : 'flex'}}>
-                    <div class="profile-picture centered titleanimation">
+                    <div className="profile-picture centered titleanimation">
                         <img src="berk.jpg" alt="Berk Sevgi"/>
                     </div>
                 </div>
                 
                 <h1 className="name">
-                    Berk <b>Sevgi</b>
+                    <b>Berk Sevgi</b>
                 </h1>
 
                 <div className="abstract">
