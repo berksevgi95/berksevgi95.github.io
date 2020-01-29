@@ -7,6 +7,7 @@ import WhoAmI from './views/WhoAmI';
 import Experiences from './views/Experiences';
 import TechnicalSkills from './views/TechnicalSkills';
 import PersonalInformation from './views/PersonalInformation';
+import Activities from './views/Activities';
 
 
 const App = () => {
@@ -32,17 +33,7 @@ const App = () => {
               <PersonalInformation/>
               <Experiences/>
               <TechnicalSkills/>
-              <div className="section">
-                <div className="slide">
-                  <h3>Slide 2.1</h3>
-                </div>
-                <div className="slide">
-                  <h3>Slide 2.2</h3>
-                </div>
-                <div className="slide">
-                  <h3>Slide 2.3</h3>
-                </div>
-              </div>
+              <Activities/>
               <div className="section">
                 <h3>Section 3</h3>
                 <button onClick={() => fullpageApi.moveTo(1, 0)}>
