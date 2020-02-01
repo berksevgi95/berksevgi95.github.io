@@ -6,113 +6,56 @@ const Projects = ({
 
     return <div className="section projects">
 
-        <div style={{
-            width: '100%',
-            height: 200,
-            display: 'flex',
-            position : 'absolute'
-        }}>
-            <h1 className="titleexperiences">
+        <div className="w-full flex absolute" style={{height : 200}}>
+            <h1 className="h1 white m-auto">
                 Projects
             </h1>
         </div>
 
         <div className="slide">
-            <div style={{width : '100%', height : 'calc(100% - 350px)', display : 'flex'}}>
-                <div style={{
-                    width : '80%', 
-                    height : '100%', 
-                    margin : 'auto', 
-                    display : 'flex', 
-                    flexDirection : 'column'
-                }}>
-                    <span style={{fontSize : 35, fontWeight : 'bolder', color : 'white'}}>
+            <div className="w-full flex" style={{height : 'calc(100% - 350px)'}}>
+                <div className="h-full m-auto flex flex-direction-column" style={{width : '80%'}}>
+                    <h5 className="h5 white mb-10 mt-10" >
                         Single Page Web Application Templates
-                    </span>
-                    <div style={{width :'100%', height : '100%', display : 'flex', position : 'relative'}}>
+                    </h5>
+                    <div className="w-full h-full flex relative">
 
-                        <div style={{
-                            width : '100%', 
-                            height : '100%', 
-                            position : 'relative',
-                        }}>
-                            <div style={{height : '50%', display : 'flex', flexDirection : 'column'}}>
-                                <div style={{
-                                    width: '100%',
-                                    fontSize: 20,
-                                    fontWeight: 'bold',
-                                    color: 'white',
-                                    margin : 'auto',
-                                    marginBottom : 0
-                                }}>Vehicle Admin Page</div>
-                                <div style={{
-                                    width: '100%',
-                                    fontSize: 20,
-                                    color: 'white',
-                                    margin : 'auto'
-                                }}>
+                        <div className="w-full h-full relative">
+                            <div className="w-full h-0-5 flex-direction-column flex relative">
+                                <h5 className="w-full font-size-20 white mt-15 mb-15" >
+                                    Vehicle Admin Page
+                                </h5>
+                                <div className="w-full font-size-20 white m-auto">
                                     Hypothetic vehicle admin page based on Semantic UI and bootstrapped with
                                     <a href="https://create-react-app.dev/docs/getting-started/">
-                                        <img style={{ width: 20, marginTop: 5, marginLeft: 5 }} src="logo192.png"></img>
+                                        <img className="mt-5 ml-5" style={{ width: 20 }} src="logo192.png"></img>
                                     </a>
                                 </div>
                             </div>
-                            <div style={{height : '50%'}}>
-                                <img style={{
-                                    width: '80%',
-                                    boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)'
-
-                                }} src="vehicle-admin.png" />
+                            <div className="h-0-5">
+                                <img className="project-item" src="vehicle-admin.png" />
                             </div>
-                            
-                            
                         </div>
 
-                        <div style={{
-                            width : '100%', 
-                            height : '100%', 
-                            position : 'relative',
-                        }}>
-                            <div style={{height : '50%', display : 'flex', flexDirection : 'column'}}>
-                                <div style={{
-                                    width: '100%',
-                                    fontSize: 20,
-                                    fontWeight: 'bold',
-                                    color: 'white',
-                                    margin : 'auto',
-                                    marginBottom : 0
-                                }}>Shards Dashboard Boilerplate</div>
-                                <div style={{
-                                    width: '100%',
-                                    fontSize: 20,
-                                    color: 'white',
-                                    margin : 'auto'
-                                }}>
+                        <div className="w-full h-full relative">
+                            <div className="w-full h-0-5 flex-direction-column flex relative">
+                                <h5 className="w-full font-size-20 white mt-15 mb-15" >
+                                    Shards Dashboard Boilerplate
+                                </h5>
+                                <div className="w-full font-size-20 white m-auto">
                                     Implemented for visualizing kubernetes infrastructures and their 
                                     interactions to provide easy-to-use kubernetes experience
                                 </div>
                             </div>
-                            <div style={{height : '50%'}}>
-                                <img style={{
-                                    width: '80%',
-                                    boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)'
-
-                                }} src="shards-dashboard.png" />
+                            <div className="h-0-5">
+                                <img className="project-item" src="shards-dashboard.png" />
                             </div>
-                            
-                            
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
 
 
 
@@ -121,110 +64,57 @@ const Projects = ({
 
 
         <div className="slide">
-            <div style={{width : '100%', height : 'calc(100% - 350px)', display : 'flex'}}>
-                <div style={{
-                    width : '80%', 
-                    height : '100%', 
-                    margin : 'auto', 
-                    display : 'flex', 
-                    flexDirection : 'column'
-                }}>
-                    <span style={{fontSize : 35, fontWeight : 'bolder', color : 'white'}}>
+            <div className="w-full flex" style={{height : 'calc(100% - 350px)'}}>
+                <div className="h-full m-auto flex flex-direction-column" style={{width : '80%'}}>
+                    <h5 className="h5 white mb-10 mt-10" >
                         School Projects
-                    </span>
-                    <div style={{width :'100%', height : '100%', display : 'flex', position : 'relative'}}>
+                    </h5>
+                    <div className="w-full h-full flex relative">
 
-                        <div style={{
-                            width : '100%', 
-                            height : '100%', 
-                            position : 'relative',
-                        }}>
-                            <div style={{height : '50%', display : 'flex', flexDirection : 'column'}}>
-                                <div style={{
-                                    width: '100%',
-                                    fontSize: 20,
-                                    fontWeight: 'bold',
-                                    color: 'white',
-                                    margin : 'auto',
-                                    marginBottom : 0
-                                }}>What the Food - A Fast-Food Price Estimator</div>
-                                <div style={{
-                                    width: '100%',
-                                    fontSize: 20,
-                                    color: 'white',
-                                    margin : 'auto'
-                                }}>
+                        <div className="w-full h-full relative">
+                            <div className="w-full h-0-5 flex-direction-column flex relative">
+                                <h5 className="w-full font-size-20 white mt-15 mb-15" >
+                                    What the Food - A Fast-Food Price Estimator
+                                </h5>
+                                <div className="w-full font-size-20 white m-auto">
                                     Interpreter of a given image as basic classification problems 
                                     with using pre-learned Neural Networks and make price assesment 
                                     with respect to result of these interpretations.
                                 </div>
                             </div>
-                            <div style={{height : '50%'}}>
-                                <img style={{
-                                    width: '50%',
-                                    boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)'
-
-                                }} src="what-the-food.png" />
+                            <div className="h-0-5">
+                                <img className="project-item w-0-5" src="what-the-food.png" />
                             </div>
-                            
-                            
                         </div>
 
-                        <div style={{
-                            width : '100%', 
-                            height : '100%', 
-                            position : 'relative',
-                        }}>
-                            <div style={{height : '50%', display : 'flex', flexDirection : 'column'}}>
-                                <div style={{
-                                    width: '100%',
-                                    fontSize: 20,
-                                    fontWeight: 'bold',
-                                    color: 'white',
-                                    margin : 'auto',
-                                    marginBottom : 0
-                                }}>Homemade Drum Pad</div>
-                                <div style={{
-                                    width: '100%',
-                                    fontSize: 20,
-                                    color: 'white',
-                                    margin : 'auto'
-                                }}>
+                        <div className="w-full h-full relative">
+                            <div className="w-full h-0-5 flex-direction-column flex relative">
+                                <h5 className="w-full font-size-20 white mt-15 mb-15" >
+                                    Homemade Drum Pad
+                                </h5>
+                                <div className="w-full font-size-20 white m-auto">
                                     Midi electronic drum kit implementation with TIVA LaunchPad and the help of
-                                    <a style={{color : 'lightblue', marginLeft : 5}} href="https://github.com/CemalUnal">
+                                    <a style={{ color: 'lightblue', marginLeft: 5 }} href="https://github.com/CemalUnal">
                                         @CemalUnal
                                     </a>
                                 </div>
                             </div>
-                            <div style={{height : '50%'}}>
+                            <div className="h-0-5">
                                 <iframe 
-                                    style={{
-                                        width: '100%',
-                                        height : '100%',
-                                        boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)'
-                                    }}
+                                    className="project-item"
                                     src="https://www.youtube.com/embed/4qsMQLfBxyE" 
+                                    height={'100%'}
                                     frameBorder="0" 
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                                     allowFullScreen
                                 ></iframe>
                             </div>
-                            
-                            
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
 
 
 
