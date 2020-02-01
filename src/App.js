@@ -15,10 +15,10 @@ import ContactMe from './views/ContactMe';
 const App = () => {
 
   const onLeave = (origin, destination, direction) => {
-    console.log("Leaving section " + origin.index);
+    // console.log("Leaving section " + origin.index);
   }
   const afterLoad = (origin, destination, direction) => {
-    console.log("After load: " + destination.index);
+    // console.log("After load: " + destination.index);
   }
   
   return (

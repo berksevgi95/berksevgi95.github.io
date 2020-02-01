@@ -16,13 +16,13 @@ const Introduction = ({
                     <b>Berk Sevgi</b>
                 </h1>
 
-                <span className="h6 white fade-in fade-in-delay-2 ml-10 mr-10">
+                <span className="h5 white fade-in fade-in-delay-2 ml-10 mr-10">
                     Software Engineer
                 </span>
-                <span className="h6 white fade-in fade-in-delay-2-5 ml-10 mr-10">
+                <span className="h5 white fade-in fade-in-delay-2-5 ml-10 mr-10">
                     Front-End Programmer
                 </span>
-                <span className="h6 white fade-in fade-in-delay-3 ml-10 mr-10">
+                <span className="h5 white fade-in fade-in-delay-3 ml-10 mr-10">
                     JS Lover
                 </span>
                 

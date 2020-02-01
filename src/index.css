@@ -164,8 +164,21 @@ textarea {
   height: 50% !important;
 }
 
+
+.w-0-25 {
+  width: 25% !important;
+}
+
+.h-0-25 {
+  height: 25% !important;
+}
+
 .flex {
   display: flex !important;
+}
+
+.grid {
+  display: grid !important;
 }
 
 .justify-center {
@@ -174,6 +187,10 @@ textarea {
 
 .align-center {
   align-items: center !important;
+}
+
+.align-end {
+  align-items: flex-end !important;
 }
 
 .text-align-start {
@@ -206,12 +223,14 @@ textarea {
 
 .h5 {
   font-size: 30px !important;
-  font-weight: bold !important;
 }
 
 .h6 {
   font-size: 20px !important;
-  font-weight: bold !important;
+}
+
+.list-style-none {
+  list-style: none;
 }
 
 .fade-in {
@@ -263,6 +282,9 @@ textarea {
 
 
 
+.m-0 {
+  margin : 0px !important;
+}
 
 .ml-5 {
   margin-left: 5px !important;
@@ -365,6 +387,9 @@ textarea {
   font-size: 30px !important;
 }
 
+.font-size-40 {
+  font-size: 40px !important;
+}
 
 .introduction{
   background: linear-gradient(90deg, rgba(81,190,179,1) 35%, rgba(0,110,133,1) 100%);
