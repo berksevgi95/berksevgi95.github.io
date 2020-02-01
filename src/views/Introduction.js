@@ -4,31 +4,29 @@ const Introduction = ({
     ...props
 }) => {
     return <div className="section introduction">
-        <div style={{width : '100%', height : '100%', display : 'flex'}}>
-            <div style={{margin : 'auto'}}>
-                <div style={{display : 'flex'}}>
-                    <div className="profile-picture centered titleanimation">
+        <div className="w-full h-full flex">
+            <div className="m-auto">
+                <div className="flex">
+                    <div className="profile-picture centered fade-in fade-in-delay-0-75">
                         <img src="berk.jpg" alt="Berk Sevgi"/>
                     </div>
                 </div>
                 
-                <h1 className="name">
+                <h1 className="h1 white fade-in fade-in-delay-1-5">
                     <b>Berk Sevgi</b>
                 </h1>
 
-                <div className="abstract">
-                    <span className="t-0">
-                        Software Engineer
-                    </span>
-                    <span className="t-1">
-                        Front-End Programmer
-                    </span>
-                    <span className="t-2">
-                        JS Lover
-                    </span>
-                </div>
+                <span className="h6 white fade-in fade-in-delay-2 ml-10 mr-10">
+                    Software Engineer
+                </span>
+                <span className="h6 white fade-in fade-in-delay-2-5 ml-10 mr-10">
+                    Front-End Programmer
+                </span>
+                <span className="h6 white fade-in fade-in-delay-3 ml-10 mr-10">
+                    JS Lover
+                </span>
                 
-                <div className="arrow">
+                <div className="arrow fade-in fade-in-delay-3-5">
                     <span></span>
                     Scroll to Continue
                 </div>
