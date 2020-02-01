@@ -41,8 +41,8 @@ const TechnicalSkills = ({
                 <span></span>
             </div>
             <div style={{paddingLeft : 50}}>
-                <div class="card">
-                    <i style={{fontSize : 90}} class="material-icons">language</i>
+                <div className="card">
+                    <i style={{fontSize : 90}} className="material-icons">language</i>
                     <div style={{marginTop : 20, marginBottom : 20}}>
                         <span>Web-based software development and relational database management on Java and ASP.NET</span>
                     </div>
@@ -157,7 +157,7 @@ const TechnicalSkills = ({
                 </div>
             </div>
             <div>
-                <div class="card">
+                <div className="card">
                     <img style={{width : 90}} src="database.png"/>
                     <div style={{marginTop : 20, marginBottom : 20}}>
                         <span>Relational and Non-Relational database designing and management</span>
@@ -225,7 +225,7 @@ const TechnicalSkills = ({
                 </div>
             </div>
             <div>
-                <div class="card">
+                <div className="card">
                     <img style={{width : 200}} src="spa_icons.png"/>
                     <div style={{marginTop : 20, marginBottom : 20}}>
                         <span>Single-page web application development and optimization with JavaScript and TypeScript frameworks & libraries</span>
@@ -305,8 +305,8 @@ const TechnicalSkills = ({
                 </div>
             </div>
             <div>
-                <div class="card">
-                    <i style={{fontSize : 90}} class="material-icons">phone_iphone</i>
+                <div className="card">
+                    <i style={{fontSize : 90}} className="material-icons">phone_iphone</i>
                     <div style={{marginTop : 20, marginBottom : 20}}>
                         <span>Mobile application development</span>
                     </div>
@@ -349,8 +349,8 @@ const TechnicalSkills = ({
                 </div>
             </div>
             <div>
-                <div class="card">
-                    <i style={{fontSize : 90}} class="material-icons">share</i>
+                <div className="card">
+                    <i style={{fontSize : 90}} className="material-icons">share</i>
                     <div style={{marginTop : 20, marginBottom : 20}}>
                         <span>Convolutional Neural Network implementation</span>
                     </div>
@@ -393,8 +393,8 @@ const TechnicalSkills = ({
                 </div>
             </div>
             <div>
-                <div class="card">
-                    <i style={{fontSize : 90}} class="material-icons">memory</i>
+                <div className="card">
+                    <i style={{fontSize : 90}} className="material-icons">memory</i>
                     <div style={{marginTop : 20, marginBottom : 20}}>
                         <span>Embedded system programming</span>
                     </div>
@@ -425,8 +425,8 @@ const TechnicalSkills = ({
                 </div>
             </div>
             <div style={{paddingRight : 50}}>
-                <div class="card">
-                    <i style={{fontSize : 90}} class="material-icons">call_split</i>
+                <div className="card">
+                    <i style={{fontSize : 90}} className="material-icons">call_split</i>
                     <div style={{marginTop : 20, marginBottom : 20}}>
                         <span>Software version automation, controlling and Continious Integration experience</span>
                     </div>
