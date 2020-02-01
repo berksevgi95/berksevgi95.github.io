@@ -375,6 +375,106 @@ textarea {
   margin-bottom: 30px !important;
 }
 
+
+
+
+
+.p-0 {
+  padding : 0px !important;
+}
+
+.pl-5 {
+  padding-left: 5px !important;
+}
+
+.pl-10 {
+  padding-left: 10px !important;
+}
+
+.pl-15 {
+  padding-left: 15px !important;
+}
+
+.pl-20 {
+  padding-left: 20px !important;
+}
+
+.pl-25 {
+  padding-left: 25px !important;
+}
+
+.pl-30 {
+  padding-left: 30px !important;
+}
+
+
+.pr-5 {
+  padding-right: 5px !important;
+}
+
+.pr-10 {
+  padding-right: 10px !important;
+}
+
+.pr-15 {
+  padding-right: 15px !important;
+}
+
+.pr-20 {
+  padding-right: 20px !important;
+}
+
+.pr-25 {
+  padding-right: 25px !important;
+}
+
+.pr-30 {
+  padding-right: 30px !important;
+}
+
+
+
+.pt-5 {
+  padding-top: 5px !important;
+}
+.pt-10 {
+  padding-top: 10px !important;
+}
+.pt-15 {
+  padding-top: 15px !important;
+}
+.pt-20 {
+  padding-top: 20px !important;
+}
+.pt-25 {
+  padding-top: 25px !important;
+}
+.pt-30 {
+  padding-top: 30px !important;
+}
+
+.pb-5 {
+  padding-bottom: 5px !important;
+}
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+.pb-15 {
+  padding-bottom: 15px !important;
+}
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+.pb-25 {
+  padding-bottom: 25px !important;
+}
+.pb-30 {
+  padding-bottom: 30px !important;
+}
+
+
+
+
 .font-size-10 {
   font-size: 10px !important;
 }
@@ -390,6 +490,26 @@ textarea {
 .font-size-40 {
   font-size: 40px !important;
 }
+
+
+.border-1-white {
+  border : 1px solid white !important;
+}
+
+.border-radius-50 {
+  border-radius: 50px;
+}
+
+
+.ws-nowrap {
+  white-space: nowrap !important;
+}
+
+.float-left {
+  float: left;
+}
+
+
 
 .introduction{
   background: linear-gradient(90deg, rgba(81,190,179,1) 35%, rgba(0,110,133,1) 100%);
@@ -452,16 +572,6 @@ textarea {
   background: linear-gradient(90deg, rgba(0,111,230,1) 0%, rgba(0,65,134,1) 100%);
 }
 
-.titleexperiences {
-  color : white;
-  font-family: 'Quicksand', sans-serif;
-  margin : auto;
-  animation-delay: .5s;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  animation-name: fadeIn;
-  font-size: 75px;
-}
 
 .left span.vertical-timeline-element-date{
   text-align: start !important;
