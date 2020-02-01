@@ -30,7 +30,9 @@ const ContactMe = ({
             <div style={{width : '100%', height : '70%', display : 'flex'}}>
                 <div style={{width : '60%', height : '100%', }}>
                     <div style={{
-                        padding : 30, 
+                        padding : 50, 
+                        paddingTop : 25, 
+                        paddingBottom : 25,
                         boxSizing :'border-box', 
                         height : '20%', 
                         width : '100%',
@@ -53,7 +55,12 @@ const ContactMe = ({
                         </div>
                     </div>
                     <form onSubmit={handleOnSubmit} style={{height : '80%', width : '100%'}}>
-                        <div style={{height : '70%', padding : 30, }}>
+                        <div style={{
+                            height : '70%', 
+                            padding : 50, 
+                            paddingTop : 25, 
+                            paddingBottom : 25 
+                        }}>
                             <textarea 
                                 onChange={handleOnChangeText}
                                 style={{ 
@@ -65,7 +72,7 @@ const ContactMe = ({
                             >
                             </textarea>
                         </div>
-                        <div style={{padding : 30, paddingTop : 0}}>
+                        <div style={{padding : 50, paddingTop : 0}}>
                             <button disabled={!enable} type="submit">
                                 Send
                             </button>
@@ -103,7 +110,7 @@ const ContactMe = ({
                 </div>
             </div>
             <div style={{width : '100%', height : '10%'}}>
-                <div className="arrow">
+                <div className="arrow" onClick={onMoveToStart}>
                     <span className="reverse"></span>
                     Click to go to top
                 </div>
