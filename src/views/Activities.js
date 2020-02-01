@@ -6,16 +6,11 @@ const Activities = ({
 
     return <div className="section activities">
 
-        <div style={{
-            width: '100%',
-            height: 200,
-            display: 'flex',
-            position : 'absolute'
-        }}>
-            <h1 className="titleexperiences">
-                Activities
-            </h1>
-        </div>
+        <div className="h-0-25 flex absolute w-full">
+                <h1 className="h1 white m-auto">
+                    Activities
+                </h1> 
+            </div>
 
         <div className="slide">
             <div style={{width : '100%', height : 'calc(100% - 350px)', display : 'flex'}}>
