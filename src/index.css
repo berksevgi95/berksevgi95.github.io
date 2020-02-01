@@ -509,6 +509,18 @@ textarea {
   float: left;
 }
 
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.padding-left-50 {
+  padding-left: 50px !important;
+}
+
+.padding-right-50 {
+  padding-right: 50px !important;
+}
+
 
 
 .introduction{
@@ -584,6 +596,16 @@ textarea {
   background: linear-gradient(90deg, rgba(210,0,103,1) 0%, rgba(134,0,79,1) 100%);
 }
 
+.card-element {
+  float : left;
+  margin-bottom : 5px;
+  margin-right : 5px;
+  padding: 5px;
+  border-radius: 50px;
+  border: 1px solid;
+  font-size: 12px;
+  white-space : nowrap
+}
 
 
 .activities {

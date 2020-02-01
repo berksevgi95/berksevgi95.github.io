@@ -22,136 +22,47 @@ const TechnicalSkills = ({
 
     return <div className="section technicalskills">
 
-        <div style={{
-            width: '100%',
-            height: 200,
-            display: 'flex'
-        }}>
-            <h1 className="titleexperiences">
+        <div className="flex" style={{height : 200}}>
+            <h1 className="h1 white m-auto">
                 Technical Skills
             </h1>
         </div>
 
-        <div ref={containerRef} style={{
-            display : 'flex',
-            alignItems : 'center',
-            overflow : 'hidden'
-        }}>
+        <div ref={containerRef} className="flex overflow-hidden align-center">
             <div onClick={scrollLeft} className="left-arrow">
                 <span></span>
             </div>
-            <div style={{paddingLeft : 50}}>
+            <div className="padding-left-50">
                 <div className="card">
                     <i style={{fontSize : 90}} className="material-icons">language</i>
-                    <div style={{marginTop : 20, marginBottom : 20}}>
+                    <div className="mt-20 mb-20">
                         <span>Web-based software development and relational database management on Java and ASP.NET</span>
                     </div>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Spring Framework
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Hibernate ORM
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         DevExpress
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Entity Framework
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         JSF/PrimeFaces
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         JSP
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         HTML
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         CSS
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         SASS
                     </span>
                 </div>
@@ -159,67 +70,22 @@ const TechnicalSkills = ({
             <div>
                 <div className="card">
                     <img style={{width : 90}} src="database.png"/>
-                    <div style={{marginTop : 20, marginBottom : 20}}>
+                    <div className="mt-20 mb-20">
                         <span>Relational and Non-Relational database designing and management</span>
                     </div>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Oracle
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         MySQL
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         PostgreSQL
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         MSSQL
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         MongoDB
                     </span>
                 </div>
@@ -227,79 +93,25 @@ const TechnicalSkills = ({
             <div>
                 <div className="card">
                     <img style={{width : 200}} src="spa_icons.png"/>
-                    <div style={{marginTop : 20, marginBottom : 20}}>
+                    <div className="mt-20 mb-20">
                         <span>Single-page web application development and optimization with JavaScript and TypeScript frameworks & libraries</span>
                     </div>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Angular
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         AngularJS
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         React
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Vue.js
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Gulp
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Webpack
                     </span>
                 </div>
@@ -307,43 +119,16 @@ const TechnicalSkills = ({
             <div>
                 <div className="card">
                     <i style={{fontSize : 90}} className="material-icons">phone_iphone</i>
-                    <div style={{marginTop : 20, marginBottom : 20}}>
+                    <div className="mt-20 mb-20">
                         <span>Mobile application development</span>
                     </div>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Android SDK
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         React Native
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Dart & Flutter
                     </span>
                 </div>
@@ -351,43 +136,16 @@ const TechnicalSkills = ({
             <div>
                 <div className="card">
                     <i style={{fontSize : 90}} className="material-icons">share</i>
-                    <div style={{marginTop : 20, marginBottom : 20}}>
+                    <div className="mt-20 mb-20">
                         <span>Convolutional Neural Network implementation</span>
                     </div>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Python
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         NumPy
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         MATLAB & MathConvNet
                     </span>
                 </div>
@@ -395,75 +153,30 @@ const TechnicalSkills = ({
             <div>
                 <div className="card">
                     <i style={{fontSize : 90}} className="material-icons">memory</i>
-                    <div style={{marginTop : 20, marginBottom : 20}}>
+                    <div className="mt-20 mb-20">
                         <span>Embedded system programming</span>
                     </div>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         TI TivaTM C Series
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Raspberry Pi
                     </span>
                 </div>
             </div>
-            <div style={{paddingRight : 50}}>
+            <div className="padding-right-50">
                 <div className="card">
                     <i style={{fontSize : 90}} className="material-icons">call_split</i>
-                    <div style={{marginTop : 20, marginBottom : 20}}>
+                    <div className="mt-20 mb-20">
                         <span>Software version automation, controlling and Continious Integration experience</span>
                     </div>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         SVN
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Git
                     </span>
-                    <span style={{
-                        float : 'left',
-                        marginBottom : 5,
-                        marginRight : 5,
-                        padding: 5,
-                        borderRadius: 50,
-                        border: '1px solid',
-                        fontSize: 12,
-                        whiteSpace : 'nowrap'
-                    }}>
+                    <span className="card-element">
                         Jenkins
                     </span>
                 </div>
