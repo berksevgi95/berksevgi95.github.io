@@ -30,8 +30,6 @@ const App = () => {
         render={({ state, fullpageApi }) => {
           return (
             <div id="fullpage-wrapper">
-              <ContactMe onMoveToStart={() => fullpageApi.moveTo(1, 0)}/>
-
               <Introduction/>
               <WhoAmI/>
               <PersonalInformation/>
@@ -39,6 +37,7 @@ const App = () => {
               <TechnicalSkills/>
               <Projects/>
               <Activities/>
+              <ContactMe onMoveToStart={() => fullpageApi.moveTo(1, 0)}/>
             </div>
           );
         }}
