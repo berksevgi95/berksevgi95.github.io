@@ -23,12 +23,12 @@ const ContactMe = ({
 
         <div className="w-full h-full" >
             <div className="flex" style={{ height : '20%' }}>
-                <h1 className="h1 white m-auto">
-                    Contact Me
+                <h1 className="text-6xl text-white m-auto">
+                    <b>Contact Me</b>
                 </h1>
             </div>
             <div className="w-full flex" style={{height : '70%'}}>
-                <div className="h-full" style={{width : '60%'}}>
+                <div className="h-full w-3/5">
                     <div className="title-container">
                         <div className="title">
                             Do you have something to say?
@@ -45,7 +45,7 @@ const ContactMe = ({
                     </form>
                 </div>
                 <div className="line"></div>
-                <div style={{width : '40%'}}>
+                <div className="w-2/5" >
                     <div className="info" >
                         <i className="material-icons">place</i>
                         <div>

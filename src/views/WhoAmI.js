@@ -7,10 +7,12 @@ const WhoAmI = ({
     
     return <div className="section whoami">
 
-        <div className="w-full h-full flex">
-            <div className="w-0-5 h-full flex justify-center align-center">
-                <article className="ml-30 mt-30 mb-30 mr-30 text-align-start white font-size-20">
-                    <h1 className="h1">Who Am I?</h1>
+        <div className="w-full h-full flex p-16">
+            <div className="w-1/2 h-full flex ">
+                <article className="m-auto text-left text-white text-lg">
+                    <h1 className="text-6xl">
+                        <b>Who Am I?</b>
+                    </h1>
                     Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan 
                     mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının 
                     bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini 

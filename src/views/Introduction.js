@@ -7,22 +7,22 @@ const Introduction = ({
         <div className="w-full h-full flex">
             <div className="m-auto">
                 <div className="flex">
-                    <div className="profile-picture centered fade-in fade-in-delay-0-75">
-                        <img src="berk.jpg" alt="Berk Sevgi"/>
+                    <div className="profile-picture fade-in fade-in-delay-0-75">
+                        <img className="centered" src="berk.jpg" alt="Berk Sevgi"/>
                     </div>
                 </div>
                 
-                <h1 className="h1 white fade-in fade-in-delay-1-5">
+                <h1 className="text-6xl text-white fade-in fade-in-delay-1-5 my-4">
                     <b>Berk Sevgi</b>
                 </h1>
 
-                <span className="h5 white fade-in fade-in-delay-2 ml-10 mr-10">
+                <span className="text-3xl text-white fade-in fade-in-delay-2 mx-8">
                     Software Engineer
                 </span>
-                <span className="h5 white fade-in fade-in-delay-2-5 ml-10 mr-10">
+                <span className="text-3xl text-white fade-in fade-in-delay-2-5 mx-8">
                     Front-End Programmer
                 </span>
-                <span className="h5 white fade-in fade-in-delay-3 ml-10 mr-10">
+                <span className="text-3xl text-white fade-in fade-in-delay-3 mx-8">
                     JS Lover
                 </span>
                 

@@ -22,9 +22,9 @@ const TechnicalSkills = ({
 
     return <div className="section technicalskills">
 
-        <div className="flex" style={{height : 200}}>
-            <h1 className="h1 white m-auto">
-                Technical Skills
+        <div className="flex h-56" >
+            <h1 className="text-6xl text-white m-auto">
+                <b>Technical Skills</b>
             </h1>
         </div>
 
@@ -32,10 +32,10 @@ const TechnicalSkills = ({
             <div onClick={scrollLeft} className="left-arrow">
                 <span></span>
             </div>
-            <div className="padding-left-50">
+            <div className="pl-16">
                 <div className="card">
-                    <i style={{fontSize : 90}} className="material-icons">language</i>
-                    <div className="mt-20 mb-20">
+                    <i className="material-icons text-6xl">language</i>
+                    <div className="my-2">
                         <span>Web-based software development and relational database management on Java and ASP.NET</span>
                     </div>
                     <span className="card-element">
@@ -69,8 +69,8 @@ const TechnicalSkills = ({
             </div>
             <div>
                 <div className="card">
-                    <img style={{width : 90}} src="database.png"/>
-                    <div className="mt-20 mb-20">
+                    <img style={{width : 65}} className="m-auto mb-4" src="database.png"/>
+                    <div className="my-2">
                         <span>Relational and Non-Relational database designing and management</span>
                     </div>
                     <span className="card-element">
@@ -92,8 +92,8 @@ const TechnicalSkills = ({
             </div>
             <div>
                 <div className="card">
-                    <img style={{width : 200}} src="spa_icons.png"/>
-                    <div className="mt-20 mb-20">
+                    <img style={{width : 130}} className="m-auto mb-4" src="spa_icons.png"/>
+                    <div className="my-2">
                         <span>Single-page web application development and optimization with JavaScript and TypeScript frameworks & libraries</span>
                     </div>
                     <span className="card-element">
@@ -118,8 +118,9 @@ const TechnicalSkills = ({
             </div>
             <div>
                 <div className="card">
-                    <i style={{fontSize : 90}} className="material-icons">phone_iphone</i>
-                    <div className="mt-20 mb-20">
+                    <i className="material-icons text-6xl">phone_iphone</i>
+
+                    <div className="my-2">
                         <span>Mobile application development</span>
                     </div>
                     <span className="card-element">
@@ -135,8 +136,8 @@ const TechnicalSkills = ({
             </div>
             <div>
                 <div className="card">
-                    <i style={{fontSize : 90}} className="material-icons">share</i>
-                    <div className="mt-20 mb-20">
+                    <i className="material-icons text-6xl">share</i>
+                    <div className="my-2">
                         <span>Convolutional Neural Network implementation</span>
                     </div>
                     <span className="card-element">
@@ -152,22 +153,22 @@ const TechnicalSkills = ({
             </div>
             <div>
                 <div className="card">
-                    <i style={{fontSize : 90}} className="material-icons">memory</i>
-                    <div className="mt-20 mb-20">
+                    <i className="material-icons text-6xl">memory</i>
+                    <div className="my-2">
                         <span>Embedded system programming</span>
                     </div>
                     <span className="card-element">
-                        TI TivaTM C Series
+                        TI Tiva C Series
                     </span>
                     <span className="card-element">
                         Raspberry Pi
                     </span>
                 </div>
             </div>
-            <div className="padding-right-50">
+            <div className="pr-16">
                 <div className="card">
-                    <i style={{fontSize : 90}} className="material-icons">call_split</i>
-                    <div className="mt-20 mb-20">
+                    <i className="material-icons text-6xl">call_split</i>
+                    <div className="my-2">
                         <span>Software version automation, controlling and Continious Integration experience</span>
                     </div>
                     <span className="card-element">

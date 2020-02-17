@@ -6,65 +6,63 @@ const PersonalInformation = ({
     return <div className="section personalinformations">
         <div className="w-full h-full">
 
-            <div className="h-0-25 flex">
-                <h1 className="h1 white m-auto">
-                    Personal Informations
+            <div className="h-56 flex">
+                <h1 className="text-6xl text-white m-auto">
+                    <b>Personal Informations</b>
                 </h1> 
             </div>
 
-            <div className="flex" style={{
-                height : '65%',
-            }}>
-                <div className="w-0-5 h-full">
-                    <ul className="list-style-none">
-                        <li className="flex mt-20">
-                            <i className="material-icons white font-size-40 mr-10">cake</i>
-                            <span className="font-size-30 white">Birth Date : 27/08/1995</span>
+            <div className="flex p-16 pt-0">
+                <div className="w-1/2 h-full">
+                    <ul className="list-none">
+                        <li className="flex my-8">
+                            <i className="material-icons text-white text-4xl mr-4">cake</i>
+                            <span className="text-white text-2xl">Birth Date : 27/08/1995</span>
                         </li>
-                        <li className="flex mt-20">
-                            <i className="material-icons white font-size-40 mr-10">person_pin_circle</i>
-                            <span className="font-size-30 white">Birth Place : Ankara</span>
+                        <li className="flex my-8">
+                            <i className="material-icons text-white text-4xl mr-4">person_pin_circle</i>
+                            <span className="text-white text-2xl">Birth Place : Ankara</span>
                         </li>
-                        <li className="flex mt-20">
-                            <i className="material-icons white font-size-40 mr-10">drive_eta</i>
-                            <span className="font-size-30 white">Driving Licences : A1, A2, A, B1, B</span>
+                        <li className="flex my-8">
+                            <i className="material-icons text-white text-4xl mr-4">drive_eta</i>
+                            <span className="text-white text-2xl">Driving Licences : A1, A2, A, B1, B</span>
                         </li>
-                        <li className="flex mt-20">
-                            <img className="mr-10" style={{height : 40}} src="medal.png"/>
-                            <span className="font-size-30 white">Military Service : Not Served</span>
+                        <li className="flex my-8">
+                            <img className="mr-4" style={{height : 36}} src="medal.png"/>
+                            <span className="text-white text-2xl">Military Service : Not Served</span>
                         </li>
                     </ul>
                 </div>
-                <div className="w-0-5 h-full">
-                    <ul className="list-style-none">
-                        <li className="flex mt-15">
-                            <i className="material-icons font-size-40 white">school</i>
-                            <div className="grid ml-15">
-                                <h5 className="m-0 h5 text-align-start white ">
-                                    Hacettepe University
+                <div className="w-1/2 h-full">
+                    <ul className="list-none">
+                        <li className="flex my-8">
+                            <i className="material-icons text-white text-4xl mr-4">school</i>
+                            <div className="grid">
+                                <h5 className="text-left text-2xl m-0 text-white ">
+                                    <b>Hacettepe University</b>
                                 </h5>
-                                <span className="font-size-20 m-0 mt-5 white">
+                                <span className="text-left text-2xl m-0 text-white ">
                                     Faculty of Engineering, Computer Engineering
                                 </span>
-                                <span className="font-size-20 m-0 mt-5 white text-align-start">
+                                <span className="text-left text-md m-0 text-white mt-2">
                                     2013 - 2018
                                 </span>
-                                <span className="mt-10 font-size-15 white text-align-start">
+                                <span className="text-left text-md m-0 text-white mt-2">
                                     <i>GPA: 2.94 / 4</i>
                                 </span>
                             </div>
                             
                         </li>
-                        <li className="flex mt-15">
-                            <i className="material-icons font-size-40 white">school</i>
-                            <div className="grid ml-15">
-                                <h5 className="m-0 h5 text-align-start white">
-                                    Dikmen Highschool
+                        <li className="flex my-8">
+                            <i className="material-icons text-white text-4xl mr-4">school</i>
+                            <div className="grid">
+                                <h5 className="text-left text-2xl m-0 text-white ">
+                                    <b>Dikmen Highschool</b>
                                 </h5>
-                                <span className="font-size-20 m-0 mt-5 white text-align-start">
+                                <span className="text-left text-md m-0 text-white mt-2">
                                     2009 - 2013
                                 </span>
-                                <span className="mt-10 font-size-15 white text-align-start">
+                                <span className="text-left text-md m-0 text-white mt-2">
                                     <i>80.05 / 100</i>
                                 </span>
                             </div>
