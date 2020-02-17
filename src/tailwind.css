@@ -13294,6 +13294,7 @@ body {
 }
 
 .card {
+  overflow: auto;
   background: #fff;
   border-radius: 2px;
   padding: 15px;
@@ -13345,6 +13346,7 @@ body {
 }
 
 .left-arrow {
+  top : 60%;
   color: gray;
   position: absolute;
   left: 0px;
@@ -13371,6 +13373,7 @@ body {
 }
 
 .right-arrow {
+  top : 60%;
   color: gray;
   position: absolute;
   right : 0px;
