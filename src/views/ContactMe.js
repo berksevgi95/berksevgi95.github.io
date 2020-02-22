@@ -21,14 +21,14 @@ const ContactMe = ({
 
     return <div className="section contactme">
 
-        <div className="w-full h-full" >
-            <div className="flex" style={{ height : '20%' }}>
-                <h1 className="text-6xl text-white m-auto">
+        <div className="w-full h-full flex flex-col justify-between" >
+            <div className="flex h-24 md:h-56">
+                <h1 className="text-4xl md:text-6xl text-white m-auto">
                     <b>Contact Me</b>
                 </h1>
             </div>
-            <div className="w-full flex" style={{height : '70%'}}>
-                <div className="h-full w-3/5">
+            <div className="w-full flex flex-col md:flex-row">
+                <div className="h-full w-full md:w-3/5">
                     <div className="title-container">
                         <div className="title">
                             Do you have something to say?
@@ -44,8 +44,8 @@ const ContactMe = ({
                         </button>
                     </form>
                 </div>
-                <div className="line"></div>
-                <div className="w-2/5" >
+                <div className="line hidden md:block"></div>
+                <div className="w-full md:w-2/5" >
                     <div className="info" >
                         <i className="material-icons">place</i>
                         <div>
@@ -65,16 +65,16 @@ const ContactMe = ({
                         </a>
                     </div>
                     <div className="info" >
-                        <img src="github.png"/>
+                        <img alt="github" src="github.png"/>
                         <a href="https://github.com/berksevgi95">
                             /berksevgi95
                         </a>
                     </div>
                 </div>
             </div>
-            <div className="w-full" style={{height : '10%'}}>
-                <div className="arrow" onClick={onMoveToStart}>
-                    <span className="reverse"></span>
+            <div className="w-full h-24 flex" onClick={onMoveToStart}>
+                <div className="m-auto flex flex-col justify-center text-white">
+                    <div className="reverse-arrow"></div>
                     Click to go to top
                 </div>
             </div>

@@ -13315,12 +13315,6 @@ body {
           transform: scale(1);
 }
 
-.reverse {
-  -webkit-transform: rotate(135deg) !important;
-          transform: rotate(135deg) !important;
-  top: 35px !important;
-}
-
 .arrow {
   color: #fff;
   position : absolute;
@@ -13399,6 +13393,17 @@ body {
   box-sizing: border-box;
 }
 
+.reverse-arrow {
+  margin: auto;
+  width: 24px;
+  height: 24px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  box-sizing: border-box;
+}
+
 .grid {
   display: grid !important;
 }
@@ -13465,6 +13470,10 @@ body {
   border-radius: 50px;
 }
 
+.h-05 {
+  height: 50% !important;
+}
+
 .introduction{
   background: -webkit-gradient(linear, left top, right top, color-stop(35%, rgba(81,190,179,1)), to(rgba(0,110,133,1)));
   background: linear-gradient(90deg, rgba(81,190,179,1) 35%, rgba(0,110,133,1) 100%);
@@ -13494,6 +13503,12 @@ body {
           transform:translateY(-50%);
 }
 
+@media only screen and (max-width: 960px) {
+  .introduction .titles {
+    display: grid;
+  }
+}
+
 .whoami {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0,66,126,1)), to(rgba(54,0,134,1)));
   background: linear-gradient(90deg, rgba(0,66,126,1) 0%, rgba(54,0,134,1) 100%);
@@ -13502,6 +13517,17 @@ body {
 .personalinformations {
   background: -webkit-gradient(linear, left top, right top, from(rgba(205,118,60,1)), to(rgba(255,149,0,1)));
   background: linear-gradient(90deg, rgba(205,118,60,1) 0%, rgba(255,149,0,1) 100%);
+}
+
+.personalinformations .container {
+  display: -webkit-box;
+  display: flex;
+}
+
+@media only screen and (max-width: 960px) {
+  .personalinformations .container {
+    display: grid;
+  }
 }
 
 .experiences {
@@ -13570,6 +13596,12 @@ body {
   text-align : start;
   font-size : 20px;
   color : white
+}
+
+@media only screen and (max-width: 960px) {
+  .contactme .title-container .title {
+    font-size : 20px;
+  }
 }
 
 .line {

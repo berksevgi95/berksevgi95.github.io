@@ -43,11 +43,6 @@ body {
   transform: scale(1);
 }
 
-.reverse {
-  transform: rotate(135deg) !important;
-  top: 35px !important;
-}
-
 .arrow {
   color: #fff;
   position : absolute; 
@@ -124,6 +119,16 @@ body {
   box-sizing: border-box;
 }
 
+.reverse-arrow {
+  margin: auto;
+  width: 24px;
+  height: 24px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(135deg);
+  box-sizing: border-box;
+}
+
 .grid {
   display: grid !important;
 }
@@ -179,6 +184,13 @@ body {
   border-radius: 50px;
 }
 
+.h-05 {
+  height: 50% !important;
+}
+
+
+
+
 
 
 .introduction{
@@ -214,16 +226,11 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 960px) {
+  .introduction .titles {
+    display: grid;
+  }
+} 
 
 
 .whoami {
@@ -234,8 +241,17 @@ body {
 
 .personalinformations {
   background: linear-gradient(90deg, rgba(205,118,60,1) 0%, rgba(255,149,0,1) 100%);
-
 }
+
+.personalinformations .container {
+  display: flex;
+}
+
+@media only screen and (max-width: 960px) {
+  .personalinformations .container {
+    display: grid;
+  }
+} 
 
 
 .experiences {
@@ -314,6 +330,12 @@ body {
   color : white
 }
 
+
+@media only screen and (max-width: 960px) {
+  .contactme .title-container .title {
+    font-size : 20px;
+  }
+} 
 
 
 .line {

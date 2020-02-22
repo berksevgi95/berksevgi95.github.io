@@ -9,7 +9,7 @@ const Experiences = ({
 
     return <div className="section experiences">
         <div className="flex h-56">
-            <h1 className="text-6xl text-white m-auto">
+            <h1 className="text-4xl md:text-6xl text-white m-auto">
                 <b>Experiences</b>
             </h1>
         </div>
@@ -29,7 +29,7 @@ const Experiences = ({
             >
                 <div className="flex w-full">
                     <div className="w-1/5">
-                        <img className="w-full" src="havelsan.png"></img>
+                        <img alt="havelsan" className="w-full" src="havelsan.png"></img>
                     </div>
                     <div className="ml-8">
                         <h4 className="vertical-timeline-element-title text-left">
@@ -76,7 +76,7 @@ const Experiences = ({
             >
                 <div className="flex w-full">
                     <div className="w-1/5">
-                        <img className="w-full" src="fortearge.png"></img>
+                        <img alt="fortearge" className="w-full" src="fortearge.png"></img>
                     </div>
                     <div className="ml-8">
                         <h4 className="vertical-timeline-element-title text-left">
@@ -131,7 +131,7 @@ const Experiences = ({
             >
                 <div className="flex w-full">
                     <div className="w-1/5">
-                        <img className="w-full" src="fortearge.png"></img>
+                        <img alt="fortearge" className="w-full" src="fortearge.png"></img>
                     </div>
                     <div className="ml-8">
                         <h4 className="vertical-timeline-element-title text-left">
@@ -180,7 +180,7 @@ const Experiences = ({
             >
                 <div className="flex w-full">
                     <div className="w-1/5 flex">
-                        <img className="w-full m-auto" src="inova.png"></img>
+                        <img alt="inova" className="w-full m-auto" src="inova.png"></img>
                     </div>
                     <div className="ml-8">
                         <h4 className="vertical-timeline-element-title text-left">

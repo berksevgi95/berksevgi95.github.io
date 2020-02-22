@@ -7,13 +7,13 @@ const PersonalInformation = ({
         <div className="w-full h-full">
 
             <div className="h-56 flex">
-                <h1 className="text-6xl text-white m-auto">
+                <h1 className="text-4xl md:text-6xl text-white m-auto">
                     <b>Personal Informations</b>
                 </h1> 
             </div>
 
-            <div className="flex p-16 pt-0">
-                <div className="w-1/2 h-full">
+            <div className="container p-16 pt-0 m-auto">
+                <div className="w-full md:w-1/2 h-full">
                     <ul className="list-none">
                         <li className="flex my-8">
                             <i className="material-icons text-white text-4xl mr-4">cake</i>
@@ -28,12 +28,12 @@ const PersonalInformation = ({
                             <span className="text-white text-2xl">Driving Licences : A1, A2, A, B1, B</span>
                         </li>
                         <li className="flex my-8">
-                            <img className="mr-4" style={{height : 36}} src="medal.png"/>
+                            <img alt="medal" className="mr-4" style={{height : 36}} src="medal.png"/>
                             <span className="text-white text-2xl">Military Service : Not Served</span>
                         </li>
                     </ul>
                 </div>
-                <div className="w-1/2 h-full">
+                <div className="w-full md:w-1/2 h-full">
                     <ul className="list-none">
                         <li className="flex my-8">
                             <i className="material-icons text-white text-4xl mr-4">school</i>

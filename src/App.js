@@ -20,6 +20,9 @@ const App = () => {
   const afterLoad = (origin, destination, direction) => {
     // console.log("After load: " + destination.index);
   }
+  const handleMoveToStart = (fullpageApi) => {
+    fullpageApi.moveTo(1, 0)
+  }
   
   return (
     <ReactFullpage
@@ -37,7 +40,7 @@ const App = () => {
               <TechnicalSkills/>
               <Projects/>
               <Activities/>
-              <ContactMe onMoveToStart={() => fullpageApi.moveTo(1, 0)}/>
+              <ContactMe onMoveToStart={handleMoveToStart.bind(this, fullpageApi)}/>
             </div>
           );
         }}

@@ -23,7 +23,7 @@ const TechnicalSkills = ({
     return <div className="section technicalskills">
 
         <div className="flex h-56" >
-            <h1 className="text-6xl text-white m-auto">
+            <h1 className="text-4xl md:text-6xl text-white m-auto">
                 <b>Technical Skills</b>
             </h1>
         </div>
@@ -69,7 +69,7 @@ const TechnicalSkills = ({
             </div>
             <div>
                 <div className="card">
-                    <img style={{width : 65}} className="m-auto mb-4" src="database.png"/>
+                    <img alt="database" style={{width : 65}} className="m-auto mb-4" src="database.png"/>
                     <div className="my-2">
                         <span>Relational and Non-Relational database designing and management</span>
                     </div>
@@ -92,7 +92,7 @@ const TechnicalSkills = ({
             </div>
             <div>
                 <div className="card">
-                    <img style={{width : 130}} className="m-auto mb-4" src="spa_icons.png"/>
+                    <img alt="spa_icons" style={{width : 130}} className="m-auto mb-4" src="spa_icons.png"/>
                     <div className="my-2">
                         <span>Single-page web application development and optimization with JavaScript and TypeScript frameworks & libraries</span>
                     </div>

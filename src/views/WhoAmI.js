@@ -8,9 +8,9 @@ const WhoAmI = ({
     return <div className="section whoami">
 
         <div className="w-full h-full flex p-16">
-            <div className="w-1/2 h-full flex ">
-                <article className="m-auto text-left text-white text-lg">
-                    <h1 className="text-6xl">
+            <div className="w-full md:w-1/2 h-full flex ">
+                <article className="mb-8 md:m-auto text-left text-white text-lg">
+                    <h1 className="text-4xl md:text-6xl">
                         <b>Who Am I?</b>
                     </h1>
                     Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan 
