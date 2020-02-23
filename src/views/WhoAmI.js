@@ -13,16 +13,18 @@ const WhoAmI = ({
                     <h1 className="text-4xl md:text-6xl">
                         <b>Who Am I?</b>
                     </h1>
-                    Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan 
-                    mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının 
-                    bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini 
-                    alarak karıştırdığı 1500'lerden beri endüstri standardı sahte 
-                    metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını 
-                    sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik 
-                    dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da 
-                    içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda 
-                    Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü 
-                    yayıncılık yazılımları ile popüler olmuştur.
+                    I am a software engineer who aims to develop effective and practical solutions,
+                    experienced on primarily web and mobile applications, also embedded systems, 
+                    neural networks and continious integration concepts, enjoys researching but enjoys 
+                    more than coding, open-minded, willingful for working, compatible with team work, 
+                    motorcycle addict
+
+                    {/* Bilişim sektörüne pratik ve efektif çözümler sunmayı amaç edinmiş, 
+                    öncelikli olarak web ve mobil platformlarında, bunun yanı sıra gömülü
+                    sistemler ve sürekli entegrasyon alanlarında da fikir sahibi,
+                    araştırmaktan zevk alan, ancak kodlamaktan daha çok zevk alan, yeni 
+                    fikirlere & eleştirilere açık, çalışmaya hevesli, takım çalışmasına uyumlu,
+                    motosiklet tutkunu bir yazılım mühendisiyim. */}
                 </article>
             </div>
         </div>
