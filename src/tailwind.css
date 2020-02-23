@@ -13300,6 +13300,8 @@ body {
   padding: 15px;
   height: 300px;
   margin: 1rem;
+  margin-bottom: 40px;
+  margin-top : 40px;
   position: relative;
   min-width: 350px;
   max-width: 350px;
@@ -13334,60 +13336,6 @@ body {
   margin-left: -12px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
-}
-
-.left-arrow {
-  top : 60%;
-  color: gray;
-  position: absolute;
-  left: 0px;
-  height: 70px;
-  z-index: 999;
-  width: 70px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  cursor: pointer;
-}
-
-.left-arrow span {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 3px solid gray;
-  border-bottom: 3px solid gray;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
-}
-
-.right-arrow {
-  top : 60%;
-  color: gray;
-  position: absolute;
-  right : 0px;
-  height: 70px;
-  z-index: 999;
-  width: 70px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  cursor: pointer;
-}
-
-.right-arrow span {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 3px solid gray;
-  border-bottom: 3px solid gray;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
