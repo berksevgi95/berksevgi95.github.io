@@ -10,6 +10,15 @@ object-assign
   http://jedwatson.github.io/classnames
 */
 
+/** @license React v16.13.0
+   * react-is.production.min.js
+   *
+   * Copyright (c) Facebook, Inc. and its affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
 /*!
  * @fullpage/react-fullpage 0.1.17
  * https://github.com/alvarotrigo/react-fullpage
@@ -87,6 +96,15 @@ object-assign
 *
 * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
 */
+
+/** @license React v16.13.0
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
 /*!
  * perfect-scrollbar v1.5.0
