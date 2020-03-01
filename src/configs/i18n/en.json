@@ -1,0 +1,20 @@
+{
+    "language.settings.title": "Select Language",
+    "software.engineer" : "Software Engineer",
+    "frontend.programmer" : "Front-End Programmer",
+    "js.lover" : "JS Lover",
+    "scroll.to.continue" : "Scroll to continue",
+    "who.am.i" : "Who Am I?",
+    "who.am.i.explanation" : "I am a software engineer who aims to develop effective and practical solutions, experienced on primarily web and mobile applications, also embedded systems, neural networks and continious integration concepts, enjoys researching but enjoys more than coding, open-minded, willingful for working, compatible with team work, motorcycle addict",
+    "personal.information" : "Personal Information",
+    "birth.date" : "Birth Date : {value}",
+    "birth.place" : "Birth Place : {value}",
+    "driving.licences" : "Driving Licences : {value}",
+    "military.service" : "Military Service : {value}",
+    "not.served": "Not Served",
+    "hacettepe.university":"Hacettepe University",
+    "faculty.graduate" : "Faculty of Engineering, Computer Engineering",
+    "gpa" : "GPA : {value}",
+    "dikmen.highschool" : "Dikmen Highschool",
+    "experiences" : "Experiences"
+}

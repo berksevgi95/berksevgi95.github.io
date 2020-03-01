@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
 const Introduction = ({
     ...props
@@ -18,20 +19,20 @@ const Introduction = ({
 
                 <div className="titles">
                     <span className="text-xl md:text-3xl text-white fade-in fade-in-delay-2 mx-8">
-                        Software Engineer
+                        <FormattedMessage id="software.engineer"/>
                     </span>
                     <span className="text-xl md:text-3xl text-white fade-in fade-in-delay-2-5 mx-8">
-                        Front-End Programmer
+                        <FormattedMessage id="frontend.programmer"/>
                     </span>
                     <span className="text-xl md:text-3xl text-white fade-in fade-in-delay-3 mx-8">
-                        JS Lover
+                        <FormattedMessage id="js.lover"/>
                     </span>
                 </div>
                 
                 
                 <div className="arrow fade-in fade-in-delay-3-5">
                     <span></span>
-                    Scroll to Continue
+                    <FormattedMessage id="scroll.to.continue"/>
                 </div>
                 
             </div>

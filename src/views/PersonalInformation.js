@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
 const PersonalInformation = ({
     ...props
@@ -8,7 +9,7 @@ const PersonalInformation = ({
 
             <div className="h-56 flex">
                 <h1 className="text-4xl md:text-6xl text-white m-auto">
-                    <b>Personal Informations</b>
+                    <b><FormattedMessage id="personal.information"/></b>
                 </h1> 
             </div>
 
@@ -17,19 +18,19 @@ const PersonalInformation = ({
                     <ul className="list-none">
                         <li className="flex my-8">
                             <i className="material-icons text-white text-4xl mr-4">cake</i>
-                            <span className="text-white text-2xl">Birth Date : 27/08/1995</span>
+                            <span className="text-white text-2xl"><FormattedMessage id="birth.date" values={{value : '27/08/1995'}} /></span>
                         </li>
                         <li className="flex my-8">
                             <i className="material-icons text-white text-4xl mr-4">person_pin_circle</i>
-                            <span className="text-white text-2xl">Birth Place : Ankara</span>
+                            <span className="text-white text-2xl"><FormattedMessage id="birth.place" values={{value : 'Ankara'}} /></span>
                         </li>
                         <li className="flex my-8">
                             <i className="material-icons text-white text-4xl mr-4">drive_eta</i>
-                            <span className="text-white text-2xl">Driving Licences : A1, A2, A, B1, B</span>
+                            <span className="text-white text-2xl"><FormattedMessage id="driving.licences" values={{value : 'A1, A2, A, B1, B'}} /></span>
                         </li>
                         <li className="flex my-8">
                             <img alt="medal" className="mr-4" style={{height : 36}} src="medal.png"/>
-                            <span className="text-white text-2xl">Military Service : Not Served</span>
+                            <span className="text-white text-2xl"><FormattedMessage id="military.service" values={{value : <FormattedMessage id="not.served"/>}} /></span>
                         </li>
                     </ul>
                 </div>
@@ -39,16 +40,16 @@ const PersonalInformation = ({
                             <i className="material-icons text-white text-4xl mr-4">school</i>
                             <div className="grid">
                                 <h5 className="text-left text-2xl m-0 text-white ">
-                                    <b>Hacettepe University</b>
+                                    <b><FormattedMessage id="hacettepe.university"/></b>
                                 </h5>
                                 <span className="text-left text-2xl m-0 text-white ">
-                                    Faculty of Engineering, Computer Engineering
+                                    <FormattedMessage id="faculty.graduate"/>
                                 </span>
                                 <span className="text-left text-md m-0 text-white mt-2">
                                     2013 - 2018
                                 </span>
                                 <span className="text-left text-md m-0 text-white mt-2">
-                                    <i>GPA: 2.94 / 4</i>
+                                    <i><FormattedMessage id="gpa" values={{value: '2.94 / 4'}}/></i>
                                 </span>
                             </div>
                             
@@ -57,7 +58,7 @@ const PersonalInformation = ({
                             <i className="material-icons text-white text-4xl mr-4">school</i>
                             <div className="grid">
                                 <h5 className="text-left text-2xl m-0 text-white ">
-                                    <b>Dikmen Highschool</b>
+                                    <b><FormattedMessage id="dikmen.highschool"/></b>
                                 </h5>
                                 <span className="text-left text-md m-0 text-white mt-2">
                                     2009 - 2013
@@ -76,7 +77,7 @@ const PersonalInformation = ({
 
         <div className="arrow">
             <span></span>
-            Scroll to Continue
+            <FormattedMessage id="scroll.to.continue"/>
         </div>
     </div>
 }

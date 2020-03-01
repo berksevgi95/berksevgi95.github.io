@@ -13596,7 +13596,7 @@ textarea {
   padding: 0
 }
 
-form {
+#fullpage-wrapper form {
   padding: 50px;
   box-sizing: border-box;
   width : 100%;

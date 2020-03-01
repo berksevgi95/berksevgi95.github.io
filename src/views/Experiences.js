@@ -2,6 +2,7 @@ import React from 'react'
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { FormattedMessage } from 'react-intl';
 
 const Experiences = ({
     ...props
@@ -10,7 +11,7 @@ const Experiences = ({
     return <div className="section experiences">
         <div className="flex h-56">
             <h1 className="text-4xl md:text-6xl text-white m-auto">
-                <b>Experiences</b>
+                <b><FormattedMessage id="experiences"/></b>
             </h1>
         </div>
 

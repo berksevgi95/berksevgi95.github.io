@@ -1,0 +1,26 @@
+{
+    "language.settings.title": "Dil Seçiniz",
+    "software.engineer" : "Yazılım Mühendisi",
+    "frontend.programmer" : "Önyüz Programcısı",
+    "js.lover" : "JS Aşığı",
+    "scroll.to.continue" : "Devam etmek için aşağıya kaydırınız",
+    "who.am.i" : "Kimim Ben?",
+    "who.am.i.explanation" : "Bilişim sektörüne pratik ve efektif çözümler sunmayı amaç edinmiş, öncelikli olarak web ve mobil platformlarında, bunun yanı sıra gömülü sistemler ve sürekli entegrasyon alanlarında da fikir sahibi, araştırmaktan zevk alan, ancak kodlamaktan daha çok zevk alan, yeni fikirlere & eleştirilere açık, çalışmaya hevesli, takım çalışmasına uyumlu, motosiklet tutkunu bir yazılım mühendisiyim. ",
+    "personal.information" : "Kişisel Bilgiler",
+    "birth.date" : "Doğum Günü : {value}",
+    "birth.place" : "Doğum Yeri : {value}",
+    "driving.licences" : "Sahip Olunan Ehliyetler : {value}",
+    "military.service" : "Askerlik Durumu : {value}",
+    "not.served": "Yapılmadı/Tecilli",
+    "hacettepe.university":"Hacettepe Üniversitesi",
+    "faculty.graduate" : "Mühendislik Fakültesi, Bilgisayar Mühendisliği",
+    "gpa" : "Genel Ortalama : {value}",
+    "dikmen.highschool" : "Dikmen Lisesi",
+    "experiences" : "Deneyimler"
+
+
+
+
+    
+    
+}
