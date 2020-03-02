@@ -20,7 +20,13 @@ const Experiences = ({
                 className="vertical-timeline-element--work left"
                 contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="January 2019 - present (for now)"
+                date={
+                    <React.Fragment>
+                        <FormattedMessage id="january"/>
+                        {` 2019 - `}
+                        <FormattedMessage id="present"/>
+                    </React.Fragment>
+                }
                 iconStyle={{ 
                     background: 'rgb(33, 150, 243)', 
                     color: '#fff',
@@ -34,18 +40,16 @@ const Experiences = ({
                     </div>
                     <div className="ml-8">
                         <h4 className="vertical-timeline-element-title text-left">
-                            <b>Front-End Software Development</b>
+                            <b><FormattedMessage id="front.end.software.development"/></b>
                         </h4>
                         <h5 className="vertical-timeline-element-subtitle text-left">
-                            Havelsan Inc.
+                            <FormattedMessage id="havelsan.inc"/>
                         </h5>
                     </div>
                 </div>
                 
                 <p className="text-left">
-                    I have been currently working in ASTAR product family to develop ASTARBI which is the 
-                    ultimate business intelligence and desicion analysis solution, enabling users to visualize, 
-                    analyze, report and compile their business data
+                    <FormattedMessage id="havelsan.explanation"/>
                 </p>
 
                 <p className="text-left">
@@ -67,7 +71,14 @@ const Experiences = ({
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="August 2017 - December 2018"
+                date={
+                    <React.Fragment>
+                        <FormattedMessage id="august"/>
+                        {` 2017 - `}
+                        <FormattedMessage id="december"/>
+                        {` 2018`}
+                    </React.Fragment>
+                }
                 iconStyle={{ 
                     background: 'rgb(33, 150, 243)', 
                     color: '#fff',
@@ -81,17 +92,16 @@ const Experiences = ({
                     </div>
                     <div className="ml-8">
                         <h4 className="vertical-timeline-element-title text-left">
-                            <b>Full-Stack Software Development</b>
+                            <b><FormattedMessage id="full.stack.software.development"/></b>
                         </h4>
                         <h5 className="vertical-timeline-element-subtitle text-left">
-                            ForteArGe Informatics, Engineering, Consultancy Inc.
+                            <FormattedMessage id="forte.arge"/>
                         </h5>
                     </div>
                 </div>
                 
                 <p className="text-left">
-                    Worked as a full-stack developer on FiloSoft – a web-based fleet inventory maintenance 
-                    management system, also joined FiloSoft mobile application development team
+                    <FormattedMessage id="forte.arge.explanation"/>
                 </p>
 
                 <p className="text-left">
@@ -122,7 +132,14 @@ const Experiences = ({
                 className="vertical-timeline-element--work left"
                 contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="June 2017 - August 2017"
+                date = {
+                    <React.Fragment>
+                        <FormattedMessage id="june"/>
+                        {` 2017 - `}
+                        <FormattedMessage id="august"/>
+                        {` 2017`}
+                    </React.Fragment>
+                }
                 iconStyle={{ 
                     background: 'rgb(33, 150, 243)', 
                     color: '#fff',
@@ -136,17 +153,16 @@ const Experiences = ({
                     </div>
                     <div className="ml-8">
                         <h4 className="vertical-timeline-element-title text-left">
-                            <b>Intern</b>
+                            <b><FormattedMessage id="intern"/></b>
                         </h4>
                         <h5 className="vertical-timeline-element-subtitle text-left">
-                            ForteArGe Informatics, Engineering, Consultancy Inc.
+                            <FormattedMessage id="forte.arge"/>
                         </h5>
                     </div>
                 </div>
                 
                 <p className="text-left">
-                    I did my 2016-2017 summer internship by testing both front and backend layer 
-                    of FiloSoft with some behavior-driven and e2e test development frameworks
+                    <FormattedMessage id="intern.explanation" />
                 </p>
 
                 <p className="text-left">
@@ -171,7 +187,14 @@ const Experiences = ({
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="June 2016 - July 2016"
+                date={
+                    <React.Fragment>
+                        <FormattedMessage id="august"/>
+                        {` 2016 - `}
+                        <FormattedMessage id="december"/>
+                        {` 2016`}
+                    </React.Fragment>
+                }
                 iconStyle={{ 
                     background: 'rgb(33, 150, 243)', 
                     color: '#fff',
@@ -185,17 +208,16 @@ const Experiences = ({
                     </div>
                     <div className="ml-8">
                         <h4 className="vertical-timeline-element-title text-left">
-                            <b>Intern</b>
+                            <b><FormattedMessage id="intern"/></b>
                         </h4>
                         <h5 className="vertical-timeline-element-subtitle text-left">
-                            İnova Consultancy, Software, Education Inc.
+                            <FormattedMessage id="inova"/>
                         </h5>
                     </div>
                 </div>
                 
                 <p className="text-left">
-                    I did my 2015– 2016 summer internship by developed simple automation 
-                    management module to be used in Türkiye Şişe ve Cam Fabrikaları A.Ş.
+                    <FormattedMessage id="inova.explanation"/>
                 </p>
 
                 <p className="text-left">

@@ -3,6 +3,7 @@ import 'react-perfect-scrollbar/dist/css/styles.css';
 import React from 'react'
 
 import PerfectScrollbar from 'react-perfect-scrollbar'
+import { FormattedMessage } from 'react-intl';
 
 const TechnicalSkills = ({
     ...props
@@ -12,7 +13,7 @@ const TechnicalSkills = ({
 
         <div className="flex" >
             <h1 className="text-4xl md:text-6xl text-white m-auto">
-                <b>Technical Skills</b>
+                <b><FormattedMessage id="technical.skills"/></b>
             </h1>
         </div>
 
@@ -22,84 +23,84 @@ const TechnicalSkills = ({
                     <div className="card">
                         <i className="material-icons text-6xl">language</i>
                         <div className="my-2">
-                            <span>Web-based software development and relational database management on Java and ASP.NET</span>
+                            <span><FormattedMessage id="web"/></span>
                         </div>
                         <span className="card-element">
                             Spring Framework
-                    </span>
+                        </span>
                         <span className="card-element">
                             Hibernate ORM
-                    </span>
+                        </span>
                         <span className="card-element">
                             DevExpress
-                    </span>
+                        </span>
                         <span className="card-element">
                             Entity Framework
-                    </span>
+                        </span>
                         <span className="card-element">
                             JSF/PrimeFaces
-                    </span>
+                        </span>
                         <span className="card-element">
                             JSP
-                    </span>
+                        </span>
                         <span className="card-element">
                             HTML
-                    </span>
+                        </span>
                         <span className="card-element">
                             CSS
-                    </span>
+                        </span>
                         <span className="card-element">
                             SASS
-                    </span>
+                        </span>
                     </div>
                 </div>
                 <div>
                     <div className="card">
                         <img alt="database" style={{ width: 65 }} className="m-auto mb-4" src="database.png" />
                         <div className="my-2">
-                            <span>Relational and Non-Relational database designing and management</span>
+                            <span><FormattedMessage id="database"/></span>
                         </div>
                         <span className="card-element">
                             Oracle
-                    </span>
+                        </span>
                         <span className="card-element">
                             MySQL
-                    </span>
+                        </span>
                         <span className="card-element">
                             PostgreSQL
-                    </span>
+                        </span>
                         <span className="card-element">
                             MSSQL
-                    </span>
+                        </span>
                         <span className="card-element">
                             MongoDB
-                    </span>
+                        </span>
                     </div>
                 </div>
                 <div>
                     <div className="card">
                         <img alt="spa_icons" style={{ width: 130 }} className="m-auto mb-4" src="spa_icons.png" />
                         <div className="my-2">
-                            <span>Single-page web application development and optimization with JavaScript and TypeScript frameworks & libraries</span>
+                            <span><FormattedMessage id="spa"/></span>
                         </div>
                         <span className="card-element">
                             Angular
-                    </span>
+                        </span>
                         <span className="card-element">
                             AngularJS
-                    </span>
+                        </span>
                         <span className="card-element">
                             React
-                    </span>
+                        </span>
                         <span className="card-element">
                             Vue.js
-                    </span>
+                        </span>
                         <span className="card-element">
                             Gulp
-                    </span>
+                        </span>
                         <span className="card-element">
                             Webpack
-                    </span>
+                        </span>
                     </div>
                 </div>
                 <div>
@@ -107,77 +108,74 @@ const TechnicalSkills = ({
                         <i className="material-icons text-6xl">phone_iphone</i>
 
                         <div className="my-2">
-                            <span>Mobile application development</span>
+                            <span><FormattedMessage id="mobile"/></span>
                         </div>
                         <span className="card-element">
                             Android SDK
-                    </span>
+                        </span>
                         <span className="card-element">
                             React Native
-                    </span>
+                        </span>
                         <span className="card-element">
                             Dart & Flutter
-                    </span>
+                        </span>
                     </div>
                 </div>
                 <div>
                     <div className="card">
                         <i className="material-icons text-6xl">share</i>
                         <div className="my-2">
-                            <span>Convolutional Neural Network implementation</span>
+                            <span><FormattedMessage id="cnn"/></span>
                         </div>
                         <span className="card-element">
                             Python
-                    </span>
+                        </span>
                         <span className="card-element">
                             NumPy
-                    </span>
+                        </span>
                         <span className="card-element">
                             MATLAB & MathConvNet
-                    </span>
+                        </span>
                     </div>
                 </div>
                 <div>
                     <div className="card">
                         <i className="material-icons text-6xl">memory</i>
                         <div className="my-2">
-                            <span>Embedded system programming</span>
+                            <span><FormattedMessage id="embedded"/></span>
                         </div>
                         <span className="card-element">
                             TI Tiva C Series
-                    </span>
+                        </span>
                         <span className="card-element">
                             Raspberry Pi
-                    </span>
+                        </span>
                     </div>
                 </div>
                 <div className="pr-8">
                     <div className="card">
                         <i className="material-icons text-6xl">call_split</i>
                         <div className="my-2">
-                            <span>Software version automation, controlling and Continious Integration experience</span>
+                            <span><FormattedMessage id="automation"/></span>
                         </div>
                         <span className="card-element">
                             SVN
-                    </span>
+                        </span>
                         <span className="card-element">
                             Git
-                    </span>
+                        </span>
                         <span className="card-element">
                             Jenkins
-                    </span>
+                        </span>
                     </div>
                 </div>
 
             </PerfectScrollbar>
-            {/* <div onClick={scrollRight} className="right-arrow">
-                <span></span>
-            </div> */}
         </div>
 
         <div className="arrow">
             <span></span>
-            Scroll to Continue
+            <FormattedMessage id="scroll.to.continue"/>
         </div>
     </div>
 

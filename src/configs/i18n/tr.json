@@ -2,7 +2,7 @@
     "language.settings.title": "Dil Seçiniz",
     "software.engineer" : "Yazılım Mühendisi",
     "frontend.programmer" : "Önyüz Programcısı",
-    "js.lover" : "JS Aşığı",
+    "js.lover" : "JS Tutkunu",
     "scroll.to.continue" : "Devam etmek için aşağıya kaydırınız",
     "who.am.i" : "Kimim Ben?",
     "who.am.i.explanation" : "Bilişim sektörüne pratik ve efektif çözümler sunmayı amaç edinmiş, öncelikli olarak web ve mobil platformlarında, bunun yanı sıra gömülü sistemler ve sürekli entegrasyon alanlarında da fikir sahibi, araştırmaktan zevk alan, ancak kodlamaktan daha çok zevk alan, yeni fikirlere & eleştirilere açık, çalışmaya hevesli, takım çalışmasına uyumlu, motosiklet tutkunu bir yazılım mühendisiyim. ",
@@ -16,11 +16,31 @@
     "faculty.graduate" : "Mühendislik Fakültesi, Bilgisayar Mühendisliği",
     "gpa" : "Genel Ortalama : {value}",
     "dikmen.highschool" : "Dikmen Lisesi",
-    "experiences" : "Deneyimler"
-
-
-
-
+    "experiences" : "Deneyimler",
+    "front.end.software.development" : "Front-End Yazılım Geliştiricisi",
+    "havelsan.inc" : "Havelsan A.Ş.",
+    "havelsan.explanation" : "ASTAR ürün ailesine ait bir iş zekâsı yazılımı olan ASTARBI projesinde önyüz geliştirici olarak görev almaktayım.",
+    "january" : "Ocak",
+    "present" : "Halen (Şimdilik)",
+    "full.stack.software.development" : "Full-Stack Yazılım Geliştiricisi",
+    "forte.arge" : "ForteArGe Bilişim, Mühendislik, Danışmanlık LTD. Şti.",
+    "forte.arge.explanation" : "Firmanın filo envanter ve bakım hizmetlerinin takip edilmesini sağlayan bir web tabanlı yazılım olan FiloSoft projesinde Full-Stack geliştirici olarak çalıştım, ayrıca projenin mobil uygulama katmanında da görev aldım",
+    "august" : "Ağustos",
+    "december" : "Aralık",
+    "intern" : "Stajyer",
+    "intern.explanation" : "2016 – 2017 yaz stajımı, firmaya ait filo envanter ve bakım hizmetlerinin takip edilmesini sağlayan FilSoft projesinde BD ve e2e testlerini gerçekleştirerek tamamladım.",
+    "june" : "Haziran",
+    "inova" : "İnova Danışmanlık A.Ş.",
+    "inova.explanation" : "2015 – 2016 Yaz stajımı, şirketin Türkiye Şişe ve Cam Fabrikaları A.Ş.'ye geliştirdikleri basit otomasyon modülünde görev alarak tamamladım.",
+    "july" : "Temmuz",
+    "technical.skills" : "Teknik Beceriler",
+    "web" : "Java ve ASP.NET ile ileri düzeyde Web tabanlı yazılım geliştirme ve ilişkisel veritabanı tasarımı ve yönetimi",
+    "database" : "İlişkisel ve ilişkisel olmayan veritabanı tasarımı ve yönetimi",
+    "spa" : "Çeşitli single-page web uygulama framework'leri ve kütüphanelerinde uygulama geliştirimi ve optimizasyonu",
+    "mobile" : "Mobil uygulama geliştirimi",
+    "cnn" : "Evrişimli nöral ağ gerçekleştirimi",
+    "embedded" : "Gömülü sistem programlama",
+    "automation" : "Yazılım versiyon otomasyonu yönetimi ve sürekli entegration deneyimi"
     
     
 }
