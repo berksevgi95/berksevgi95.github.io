@@ -40,6 +40,33 @@
     "mobile" : "Mobile application development",
     "cnn" : "Convolutional Neural Network implementation",
     "embedded" : "Embedded system programming",
-    "automation" : "Software version automation, controlling and Continious Integration experience"
-    
+    "automation" : "Software version automation, controlling and Continious Integration experience",
+    "side.projects" : "Projects",
+    "vehicle.admin.page" : "Hypothetic vehicle admin page implemented with Semantic UI",
+    "shards.dashboard.boilerplate" : "Implemented for visualizing kubernetes infrastructures and their interactions to provide easy-to-use kubernetes experience",
+    "school.projects" : "School Projects",
+    "what.the.food.title" : "A Fast-Food Price Estimator",
+    "what.the.food" : "Interpreter of a given image as basic classification problems with using pre-learned Neural Networks and make price assesment with respect to result of these interpretations.",
+    "homemade.drum.pad.title" : "Homemade Drum Pad",
+    "homemade.drum.pad" : "Midi electronic drum kit implementation with TIVA LaunchPad and the help of <a style='margin-left:5px; color : lightblue' href='https://github.com/CemalUnal'>@CemalUnal</a>",
+    "activities" : "Activities",
+    "participated.activities" : "Participated Activities",
+    "warsaw.poland" : "Warsaw, Poland",
+    "march" : "March",
+    "february" : "February",
+    "participated.courses" : "Participated Courses",
+    "mil.std" : "Configuration Management According to MIL-STD-973 from CM01",
+    "ankara.turkey" : "Ankara, Turkey",
+    "languages" : "Languages",
+    "english" : "English",
+    "advance" : "Advance",
+    "russian" : "Russian",
+    "beginner" : "Beginner",
+    "contact.me" : "Contact Me",
+    "do.you.have.smt.to.say" : "Do you have something to say?",
+    "just.type.me" : "Just type me",
+    "send" : "Send",
+    "click.to.go.to.top" : "Click to go to top"
+
+
 }

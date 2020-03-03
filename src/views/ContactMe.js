@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
 const ContactMe = ({
     onMoveToStart,
@@ -24,23 +25,23 @@ const ContactMe = ({
         <div className="w-full h-full flex flex-col justify-between" >
             <div className="flex h-24 md:h-56">
                 <h1 className="text-4xl md:text-6xl text-white m-auto">
-                    <b>Contact Me</b>
+                    <b><FormattedMessage id="contact.me"/></b>
                 </h1>
             </div>
             <div className="w-full flex flex-col md:flex-row">
                 <div className="h-full w-full md:w-3/5">
                     <div className="title-container">
                         <div className="title">
-                            Do you have something to say?
+                            <FormattedMessage id="do.you.have.smt.to.say"/>
                         </div>
                         <div className="subtitle">
-                            Just type me
+                            <FormattedMessage id="just.type.me"/>
                         </div>
                     </div>
                     <form onSubmit={handleOnSubmit}>
                         <textarea onChange={handleOnChangeText} name="text"></textarea>
                         <button disabled={!enable} type="submit">
-                            Send
+                            <FormattedMessage id="send"/>
                         </button>
                     </form>
                 </div>
@@ -75,7 +76,7 @@ const ContactMe = ({
             <div className="w-full h-24 flex" onClick={onMoveToStart}>
                 <div className="m-auto flex flex-col justify-center text-white">
                     <div className="reverse-arrow"></div>
-                    Click to go to top
+                    <FormattedMessage id="click.to.go.to.top"/>
                 </div>
             </div>
         </div>

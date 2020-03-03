@@ -24,7 +24,7 @@
     "present" : "Halen (Şimdilik)",
     "full.stack.software.development" : "Full-Stack Yazılım Geliştiricisi",
     "forte.arge" : "ForteArGe Bilişim, Mühendislik, Danışmanlık LTD. Şti.",
-    "forte.arge.explanation" : "Firmanın filo envanter ve bakım hizmetlerinin takip edilmesini sağlayan bir web tabanlı yazılım olan FiloSoft projesinde Full-Stack geliştirici olarak çalıştım, ayrıca projenin mobil uygulama katmanında da görev aldım",
+    "forte.arge.explanation" : "Firmanın filo envanter ve bakım hizmetlerinin takip edilmesini sağlayan bir web tabanlı yazılım olan FiloSoft projesinde Full-Stack geliştirici olarak çalıştım, ayrıca projenin mobil uygulama katmanında da görev aldım.",
     "august" : "Ağustos",
     "december" : "Aralık",
     "intern" : "Stajyer",
@@ -40,7 +40,35 @@
     "mobile" : "Mobil uygulama geliştirimi",
     "cnn" : "Evrişimli nöral ağ gerçekleştirimi",
     "embedded" : "Gömülü sistem programlama",
-    "automation" : "Yazılım versiyon otomasyonu yönetimi ve sürekli entegration deneyimi"
-    
+    "automation" : "Yazılım versiyon otomasyonu yönetimi ve sürekli entegration deneyimi",
+    "side.projects" : "Projeler",
+    "vehicle.admin.page" : "Semantic UI ile geliştirilmiş araç yönetim sistemi şablonu",
+    "shards.dashboard.boilerplate" : "Kubernetes'te kullanım kolaylığı sağlamayı amaçlayan bir kullanıcı arayüzü",
+    "school.projects" : "Okul Projeleri",
+    "what.the.food.title" : "Fast-Food Ücret Tahminleyici",
+    "what.the.food" : "İlgili yemeğe ait olan resmi kullanarak, hazırlanmış nöral ağlar vasıtasıyla yemeğe ait fiyat analizi yapan uygulama.",
+    "homemade.drum.pad.title" : "Mini Elektronik Bateri",
+    "homemade.drum.pad" : "TIVA LaunchPad kullanarak ve <a style='margin-left:5px; color : lightblue' href='https://github.com/CemalUnal'>@CemalUnal</a>'ın katkılarıyla mini elektronik bateri implementasyonu",
+    "activities" : "Aktiviteler",
+    "participated.activities" : "Katılım Sağlanan Aktiviteler",
+    "warsaw.poland" : "Varşova, Polonya",
+    "march" : "Mart",
+    "february" : "Şubat",
+    "participated.courses" : "Katılım Sağlanan Eğitimler",
+    "mil.std" : "CM01 MIL-STD-973 Standardına Ait Konfigürasyon Yönetimi",
+    "ankara.turkey" : "Ankara, Türkiye",
+    "languages" : "Diller",
+    "english" : "İngilizce",
+    "advance" : "İyi",
+    "russian" : "Rusça",
+    "beginner" : "Başlangıç",
+    "contact.me" : "Bana Ulaşın",
+    "do.you.have.smt.to.say" : "Söylemek istediğin bir şey mi var?",
+    "just.type.me" : "Yaz bana",
+    "send" : "Yolla",
+    "click.to.go.to.top" : "Yukarıya çıkmak için tıklayınız"
+
+
+
     
 }

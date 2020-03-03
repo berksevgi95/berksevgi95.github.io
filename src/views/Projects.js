@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 
 const Projects = ({
     ...props
@@ -9,7 +10,7 @@ const Projects = ({
         <div className="slide">
             <div className="w-full flex " >
                 <h1 className="text-4xl md:text-6xl text-white m-auto mb-8">
-                    <b>Side Projects</b>
+                    <b><FormattedMessage id="side.projects"/></b>
                 </h1>
             </div>
             <div className="w-full flex h-05">
@@ -22,10 +23,7 @@ const Projects = ({
                                     Vehicle Admin Page
                                 </h5>
                                 <div className="w-full text-white m-auto mb-8 md:mb-0">
-                                    Hypothetic vehicle admin page based on Semantic UI and bootstrapped with 
-                                    <a href="https://create-react-app.dev/docs/getting-started/">
-                                        Create React App
-                                    </a>
+                                    <FormattedMessage id="vehicle.admin.page"/>
                                 </div>
                             </div>
                             <div className="flex">
@@ -39,8 +37,7 @@ const Projects = ({
                                     Shards Dashboard Boilerplate
                                 </h5>
                                 <div className="w-full text-white m-auto mb-8 md:mb-0">
-                                    Implemented for visualizing kubernetes infrastructures and their 
-                                    interactions to provide easy-to-use kubernetes experience
+                                    <FormattedMessage id="shards.dashboard.boilerplate"/>
                                 </div>
                             </div>
                             <div className="flex">
@@ -62,7 +59,7 @@ const Projects = ({
         <div className="slide">
             <div className="w-full flex " >
                 <h1 className="text-4xl md:text-6xl text-white m-auto mb-8">
-                    <b>School Projects</b>
+                    <b><FormattedMessage id="school.projects"/></b>
                 </h1>
             </div>
             <div className="w-full flex h-05">
@@ -72,12 +69,10 @@ const Projects = ({
                         <div className="w-full h-full flex flex-col justify-between relative mb-24 md:mb-0 px-4">
                             <div className="w-full flex flex-col relative">
                                 <h5 className="w-full text-2xl text-white my-2" >
-                                    What the Food - A Fast-Food Price Estimator
+                                    What the Food - <FormattedMessage id="what.the.food.title" />
                                 </h5>
                                 <div className="w-full text-white m-auto mb-8 md:mb-0">
-                                    Interpreter of a given image as basic classification problems 
-                                    with using pre-learned Neural Networks and make price assesment 
-                                    with respect to result of these interpretations.
+                                    <FormattedMessage id="what.the.food" />
                                 </div>
                             </div>
                             <div className="flex">
@@ -88,13 +83,10 @@ const Projects = ({
                         <div className="w-full h-full relative flex flex-col justify-between mb-24 md:mb-0 px-4">
                             <div className="w-full flex flex-col relative">
                                 <h5 className="w-full text-2xl text-white my-2" >
-                                    Homemade Drum Pad
+                                    <FormattedMessage id="homemade.drum.pad.title" />
                                 </h5>
                                 <div className="w-full text-white m-auto mb-8 md:mb-0">
-                                    Midi electronic drum kit implementation with TIVA LaunchPad and the help of
-                                    <a style={{ color: 'lightblue', marginLeft: 5 }} href="https://github.com/CemalUnal">
-                                        @CemalUnal
-                                    </a>
+                                    <FormattedHTMLMessage id="homemade.drum.pad"/>
                                 </div>
                             </div>
                             <div className="flex">
