@@ -1,0 +1,28 @@
+.event {
+    list-style: none;
+    position: relative;
+}
+
+.event .list-item {
+    position: absolute;
+    width: 1px;
+    left: 0px;
+    top: 30px;
+    background-color: grey;
+    height: 100%;
+    z-index: 1;
+}
+
+.event .list-item::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #193f98;
+    display: flex;
+    margin-left: -5px;
+}
+
+.event:last-child .list-item{
+    height: 0px
+}
