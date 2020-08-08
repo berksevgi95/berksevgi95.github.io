@@ -8,7 +8,7 @@ const Whoami = ({
     id
 }) => {
     return (
-        <article id={id} className="h-full overflow-auto whoami">
+        <article id={id} className="h-full overflow-auto view">
             <div>
                 <h1 className="title">Who Am I?</h1>
                 <div>

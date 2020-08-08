@@ -24,7 +24,7 @@ export default [{
 }, {
     index: 3,
     path: 'experiences',
-    title: "Experiencs",
+    title: "Experiences",
     component: Experiences
 }, {
     index: 4,

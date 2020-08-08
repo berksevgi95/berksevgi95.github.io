@@ -52,3 +52,31 @@ html, body, #app {
 .continue > a > span{
     color: #193f98;
 }
+
+.view {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 25px;
+    color: #193f98;
+    margin: 25px 0px 25px 0px;
+}
+
+.pin {
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #193f98;
+    margin: 10px;
+}
+
+.pin > span {
+    margin: auto;
+    color: white
+}
