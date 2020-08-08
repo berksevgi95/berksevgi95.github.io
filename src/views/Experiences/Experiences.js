@@ -11,7 +11,7 @@ const Experiences = ({
         <article id={id} className="h-full overflow-auto view">
             <div className="w-full h-full">
                 <h1 className="title">Experiences</h1>
-                <Timeline>
+                <Timeline className="pl-6">
                     <Event
                         title="Front-End Developer"
                         subtitle="DataBoss Security & Analytics, Ankara, Turkey"

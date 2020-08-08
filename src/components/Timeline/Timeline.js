@@ -2,11 +2,14 @@ import React from 'react';
 
 import Event from './Event/Event'
 
+import './Timeline.css'
+
 const Timeline = ({
+    className,
     children
 }) => {
     return (
-        <ul className="relative p-0">
+        <ul className={`relative ${className}`}>
             {children}
         </ul>
     )

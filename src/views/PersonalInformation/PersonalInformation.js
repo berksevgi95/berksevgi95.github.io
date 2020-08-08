@@ -11,6 +11,7 @@ import {
     GithubOutlined,
     ArrowRightOutlined
 } from '@ant-design/icons';
+import Timeline, { Event } from '../../components/Timeline/Timeline';
 
 import './PersonalInformation.css'
 
@@ -74,34 +75,18 @@ const PersonalInformation = ({
                         </li>
                     </ul>
                     <h3>Education</h3>
-                    <ul className="list-none p-0">
-                        <li className="flex items-center my-4">
-                            <div className="pin">
-                                <BankOutlined />
-                            </div>
-                            <div>
-                                <div>
-                                    BSc, Hacettepe University, Faculty of Engineering, Computer Engineering
-                                </div>
-                                <div className="mt-2">
-                                    <i>2013 - 2018</i> &#183; <i>2.94 / 4.00</i>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="flex items-center my-4">
-                            <div className="pin">
-                                <EditOutlined />
-                            </div>
-                            <div>
-                                <div>
-                                    HS, Dikmen Highschool
-                                </div>
-                                <div className="mt-2">
-                                    <i>2009 - 2013</i> &#183; <i>80.5 / 100.0</i>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                    <Timeline className="pl-6">
+                        <Event
+                            title="Bachelor of Science"
+                            subtitle="Hacettepe University, Faculty of Engineering, Computer Engineering"
+                            dateInterval="2013 - 2018 2.94 / 4.00"
+                        />
+                        <Event
+                            title="Highschool"
+                            subtitle="Dikmen Highschool"
+                            dateInterval="2009 - 2013 80.5 / 100.0"
+                        />
+                    </Timeline>
                     <div className="continue">
                         <a href="#experiences">Go Ahead <ArrowRightOutlined /></a>
                     </div>
