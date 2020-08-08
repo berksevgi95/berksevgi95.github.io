@@ -112,7 +112,7 @@ const TechnicalSkills = ({
                     </div>
 
                     <div className="continue">
-                        <a href="#experiences">Go Ahead <ArrowRightOutlined /></a>
+                        <a href="#projects">Click to continue <ArrowRightOutlined /></a>
                     </div>
                 </div>
             </div>

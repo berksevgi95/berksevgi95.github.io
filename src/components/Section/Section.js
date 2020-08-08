@@ -1,9 +1,20 @@
 import React from 'react';
 import routes from '../../config/routes';
 
-const Section = React.forwardRef(({ }, ref) => {
+const Section = () => {
+
+    const ref = React.useRef()
+
+    React.useEffect(() => {
+        if (routes && routes.length > 0) {
+            ref.current.scrollTop = routes.find(
+                route => '#' + route.path === window.location.hash
+            ).index * window.innerHeight
+        }
+    }, [])
+
     return (
-        <main className="w-full overflow-auto">
+        <main ref={ref} className="w-full overflow-auto">
             {routes && routes.length > 0 && routes.map(route => (
                 <route.component
                     key={route.index}
@@ -12,6 +23,6 @@ const Section = React.forwardRef(({ }, ref) => {
             ))}
         </main>
     )
-})
+}
 
 export default Section;

@@ -45,9 +45,9 @@ const PersonalInformation = ({
                             <div className="pin">
                                 <MailOutlined />
                             </div>
-                            <span>
+                            <a className="link" href="mailto:berksevgi95@gmail.com">
                                 berksevgi95@gmail.com
-                            </span>
+                            </a>
                         </li>
                         <li className="flex items-center">
                             <div className="pin">
@@ -88,7 +88,7 @@ const PersonalInformation = ({
                         />
                     </Timeline>
                     <div className="continue">
-                        <a href="#experiences">Go Ahead <ArrowRightOutlined /></a>
+                        <a href="#experiences">Click to continue <ArrowRightOutlined /></a>
                     </div>
                 </div>
             </div>

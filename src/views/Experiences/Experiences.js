@@ -69,7 +69,7 @@ const Experiences = ({
                     </Event>
                 </Timeline>
                 <div className="continue">
-                    <a href="#technical-skills">Take me to the technical skills <ArrowRightOutlined /></a>
+                    <a href="#technical-skills">Click to continue <ArrowRightOutlined /></a>
                 </div>
             </div>
         </article>

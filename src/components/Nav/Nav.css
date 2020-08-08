@@ -3,6 +3,8 @@
 }
 
 .nav-list {
+    animation: fadein 1s;
+    animation-fill-mode: both;
     list-style: none;
     padding: 25px;
 }
@@ -17,6 +19,10 @@
     text-decoration: none;
     transition: .2s;
     font-size: larger;
+}
+
+.nav-list a.active {
+    opacity: 1;
 }
 
 .nav-list a:hover {

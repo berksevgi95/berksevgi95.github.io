@@ -20,10 +20,6 @@
     }
 }
 
-* {
-    scroll-behavior: smooth;
-}
-
 html, body, #app {
     height: 100%;
     width: 100%;
@@ -58,6 +54,7 @@ html, body, #app {
     align-items: center;
     padding: 50px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .title {
