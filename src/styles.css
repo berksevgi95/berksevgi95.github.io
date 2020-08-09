@@ -1,6 +1,6 @@
 @font-face {
     font-family: Century Gothic;
-    src: url('assets/fonts/CenturyGothicRegular.ttf');
+    src: url('assets/ttf/CenturyGothicRegular.ttf');
 }
 
 @tailwind preflight;

@@ -35,6 +35,12 @@ module.exports = {
           loader: 'file-loader', options: { esModule: false }
         }]
       },
+      {
+        test: /\.(png|jpg)$/,
+        use: [{
+          loader: 'file-loader'
+        }]
+      },
     ],
   },
   devServer: {

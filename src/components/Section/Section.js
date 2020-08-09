@@ -6,12 +6,20 @@ const Section = () => {
     const ref = React.useRef()
 
     React.useEffect(() => {
-        if (routes && routes.length > 0) {
+        handleHashChange()
+        window.addEventListener('hashchange', handleHashChange)
+        return () => {
+            window.removeEventListener('hashchange', handleHashChange)
+        }
+    }, [])
+
+    const handleHashChange = () => {
+        if (routes && routes.length > 0 && window.location.hash) {
             ref.current.scrollTop = routes.find(
                 route => '#' + route.path === window.location.hash
             ).index * window.innerHeight
         }
-    }, [])
+    }
 
     return (
         <main ref={ref} className="w-full overflow-auto">

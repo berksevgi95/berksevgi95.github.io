@@ -1,0 +1,11 @@
+.completed {
+    background-color: darkgreen !important;
+}
+
+.obsolete {
+    background-color: goldenrod !important;
+}
+
+.link {
+    color: #193f98;
+}
