@@ -1,3 +1,5 @@
 .link {
     color: #193f98;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

@@ -9,10 +9,10 @@ import './styles.css'
 
 const App = () => {
     return (
-        <div className="w-full h-full flex">
+        <React.Fragment>
             <Nav />
             <Section />
-        </div>
+        </React.Fragment>
     )
 }
 

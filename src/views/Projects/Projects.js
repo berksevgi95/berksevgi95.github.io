@@ -42,7 +42,7 @@ const Projects = ({
 
     return (
         <article id={id} className="h-full overflow-auto view">
-            <div className="relative w-full">
+            <div className="relative w-full h-full md:h-auto">
                 <h1 className="title">Projects</h1>
 
                 <div className="flex">
@@ -55,7 +55,7 @@ const Projects = ({
                     </div>
                     <SwipeableViews index={index} enableMouseEvents>
                         <div className="w-full">
-                            <div className="flex items-center justify-between">
+                            <div className="md:flex items-center justify-between">
                                 <h3>Vehicle Admin Page</h3>
                                 <div className="flex items-center">
                                     <div className="pin">
@@ -86,7 +86,7 @@ const Projects = ({
                             </AutoPlaySwipeableViews>
                         </div>
                         <div className="w-full">
-                            <div className="flex items-center justify-between">
+                            <div className="md:flex items-center justify-between">
                                 <h3>BS Trivia</h3>
                                 <div className="flex items-center">
                                     <div className="pin completed">
@@ -114,7 +114,7 @@ const Projects = ({
                             </AutoPlaySwipeableViews>
                         </div>
                         <div className="w-full">
-                            <div className="flex items-center justify-between">
+                            <div className="md:flex items-center justify-between">
                                 <h3>What the Food - A Fast-Food Price Estimator</h3>
                                 <div className="flex items-center">
                                     <div className="pin obsolete">
@@ -131,7 +131,7 @@ const Projects = ({
                             </div>
                         </div>
                         <div className="w-full">
-                            <div className="flex items-center justify-between">
+                            <div className="md:flex items-center justify-between">
                                 <h3>Homemade Drum Pad</h3>
                                 <div className="flex items-center">
                                     <div className="pin completed">

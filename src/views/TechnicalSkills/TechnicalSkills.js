@@ -10,12 +10,12 @@ const TechnicalSkills = ({
 }) => {
     return (
         <article id={id} className="h-full overflow-auto view">
-            <div className="w-full">
+            <div className="w-full h-full md:h-auto">
                 <h1 className="title">Technical Skills</h1>
                 <div>
                     <div className="md:flex justify-between">
                         <div>
-                            <h3>Software Development Skills</h3>
+                            <h3 className="mb-4">Software Development Skills</h3>
                             <div>
                                 <div className="flex items-center mb-4">
                                     <Star rank={5} />
@@ -64,7 +64,7 @@ const TechnicalSkills = ({
                             </div>
                         </div>
                         <div>
-                            <h3>Programming Language Skills</h3>
+                            <h3 className="mb-4">Programming Language Skills</h3>
                             <div>
                                 <div className="flex items-center mb-4">
                                     <Star rank={3} />
@@ -97,7 +97,7 @@ const TechnicalSkills = ({
                             </div>
                         </div>
                         <div>
-                            <h3>Language Skills</h3>
+                            <h3 className="mb-4">Language Skills</h3>
                             <div>
                                 <div className="flex items-center mb-4">
                                     <Star rank={3} />

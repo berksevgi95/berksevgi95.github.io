@@ -3,7 +3,7 @@
     src: url('assets/ttf/CenturyGothicRegular.ttf');
 }
 
-@tailwind preflight;
+@tailwind base;
 
 @tailwind components;
 
@@ -25,6 +25,7 @@ html, body, #app {
     width: 100%;
     font-family: Century Gothic;
     margin: 0px;
+    display: flex;
 }
 
 #spinner {

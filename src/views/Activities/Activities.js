@@ -15,7 +15,7 @@ const Activities = ({
 }) => {
     return (
         <article id={id} className="h-full overflow-auto view">
-            <div>
+            <div className="h-full md:h-auto">
                 <h1 className="title">Activities</h1>
                 <div>
                     <h3>Participated Events & Courses</h3>

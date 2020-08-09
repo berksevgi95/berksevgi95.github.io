@@ -20,7 +20,7 @@ const PersonalInformation = ({
 }) => {
     return (
         <article id={id} className="h-full overflow-auto view">
-            <div>
+            <div className="h-full md:h-auto w-full md:w-auto">
                 <h1 className="title">Personal Information</h1>
                 <div>
                     <h3>Details</h3>
