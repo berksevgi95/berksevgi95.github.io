@@ -2,6 +2,24 @@
     background-color: #193f98;
 }
 
+.collapsed {
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    transition: .3s
+}
+
+.header {
+    z-index: 10;
+    position: absolute;
+    padding: 50px;
+    right: 0px;
+    top: 0px
+}
+
 .nav-list {
     animation: fadein 1s;
     animation-fill-mode: both;
