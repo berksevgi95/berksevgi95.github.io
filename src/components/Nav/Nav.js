@@ -57,8 +57,8 @@ const Nav = () => {
                 />
             </header>
             <nav
-                style={{ width: collapse ? '100%' : '0%' }}
-                className="nav collapsed flex md:hidden"
+                style={{ transform: `translateX(${!collapse ? -100 : 0}%)` }}
+                className="nav collapsed flex md:hidden w-full"
                 onClick={toggleNavbar}
             >
                 <div className="flex md:hidden header">

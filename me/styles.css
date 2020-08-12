@@ -87554,11 +87554,7 @@ html, body, #app {
   color: #193f98;
   margin: 25px 0px 25px 0px;
 }
-.link {
-  color: #193f98;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}.completed {
+.completed {
   background-color: darkgreen !important;
 }
 
@@ -87568,16 +87564,10 @@ html, body, #app {
 
 .link {
   color: #193f98;
-}.footer {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  padding: 15px;
-  background-color: lightgray;
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
+}.link {
+  color: #193f98;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }.star {
   display: flex;
 }
@@ -87645,6 +87635,16 @@ html, body, #app {
 
 .nav-list a:hover {
   opacity: 1;
+}.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 15px;
+  background-color: lightgray;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
 }.event {
   list-style: none;
   position: relative;

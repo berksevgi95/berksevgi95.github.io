@@ -71,18 +71,10 @@ const Projects = ({
                                 Check live <a className="link" href="https://suspicious-mcnulty-9f5041.netlify.app">demo</a>
                             </div>
                             <AutoPlaySwipeableViews className="mt-8" enableMouseEvents>
-                                <div className="flex">
-                                    <img src={VAP1} className="w-1/3 m-auto" />
-                                </div>
-                                <div className="flex">
-                                    <img src={VAP2} className="w-1/3 m-auto" />
-                                </div>
-                                <div className="flex">
-                                    <img src={VAP3} className="w-1/3 m-auto" />
-                                </div>
-                                <div className="flex">
-                                    <img src={VAP4} className="w-1/3 m-auto" />
-                                </div>
+                                <img src={VAP1} className="w-full md:w-1/3 m-auto" />
+                                <img src={VAP2} className="w-full md:w-1/3 m-auto" />
+                                <img src={VAP3} className="w-full md:w-1/3 m-auto" />
+                                <img src={VAP4} className="w-full md:w-1/3 m-auto" />
                             </AutoPlaySwipeableViews>
                         </div>
                         <div className="w-full">
@@ -97,20 +89,14 @@ const Projects = ({
                             </div>
                             <div>
                                 Yet another simple trivia game made by BS
-                            </div>
+                        </div>
                             <div className="mt-2">
                                 Check live <a className="link" href="https://boring-johnson-478048.netlify.app/">demo</a>
                             </div>
                             <AutoPlaySwipeableViews className="mt-8" enableMouseEvents>
-                                <div className="flex">
-                                    <img src={BSTrivia1} className="w-1/3 m-auto" />
-                                </div>
-                                <div className="flex">
-                                    <img src={BSTrivia2} className="w-1/3 m-auto" />
-                                </div>
-                                <div className="flex">
-                                    <img src={BSTrivia3} className="w-1/3 m-auto" />
-                                </div>
+                                <img src={BSTrivia1} className="w-full md:w-1/3 m-auto" />
+                                <img src={BSTrivia2} className="w-full md:w-1/3 m-auto" />
+                                <img src={BSTrivia3} className="w-full md:w-1/3 m-auto" />
                             </AutoPlaySwipeableViews>
                         </div>
                         <div className="w-full">
@@ -120,15 +106,13 @@ const Projects = ({
                                     <div className="pin obsolete">
                                         <WarningOutlined />
                                     </div>
-                                        Obsolete
-                                    </div>
+                                Obsolete
+                            </div>
                             </div>
                             <div>
                                 Interpreter of a given image as basic classification problems with using pre-learned Neural Networks and make price assesment with respect to result of these interpretations.
-                            </div>
-                            <div className="flex mt-8">
-                                <img src={WhatTheFood} className="w-1/4 m-auto" />
-                            </div>
+                        </div>
+                            <img src={WhatTheFood} className="w-full mt-4 md:w-1/4 m-auto" />
                         </div>
                         <div className="w-full">
                             <div className="md:flex items-center justify-between">
@@ -137,23 +121,21 @@ const Projects = ({
                                     <div className="pin completed">
                                         <CheckOutlined />
                                     </div>
-                                    Completed
-                                </div>
+                                Completed
+                            </div>
                             </div>
                             <div>
                                 Midi electronic drum kit implementation with TIVA LaunchPad and the help of <a className="link" href="https://github.com/CemalUnal">@CemalUnal</a>
                             </div>
-                            <div className="flex mt-8">
-                                <iframe
-                                    title="Midi Electronic Drum Kit"
-                                    className="w-1/2 m-auto"
-                                    src="https://www.youtube.com/embed/4qsMQLfBxyE"
-                                    height={250}
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
+                            <iframe
+                                title="Midi Electronic Drum Kit"
+                                className="w-full md:w-1/3 mt-4 m-auto"
+                                src="https://www.youtube.com/embed/4qsMQLfBxyE"
+                                height={250}
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
                         </div>
                     </SwipeableViews>
                     <div
