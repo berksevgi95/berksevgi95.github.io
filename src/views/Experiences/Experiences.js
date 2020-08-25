@@ -15,11 +15,11 @@ const Experiences = ({
                     <Event
                         title="Front-End Developer"
                         subtitle="DataBoss Security & Analytics, Ankara, Turkey"
-                        dateInterval="2020-05 - Current"
+                        dateInterval="2020-05 - 2020-08"
                     >
                         <ul>
                             <li>
-                                Currently working as a Front-End developer on AKIS project which is an interactive crawler management system to be used for investigation of the content on various news sites and social medias.
+                                Worked as a Front-End developer on AKIS project which is an interactive crawler management system to be used for investigation of the content on various news sites and social medias.
                             </li>
                             <li>
                                 Experienced on live data streaming bootstrapped via Kafka from unmanned combat air vehicle into a web application interface.
