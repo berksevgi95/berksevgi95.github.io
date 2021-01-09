@@ -87535,10 +87535,6 @@ html, body, #app {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
-}.link {
-  color: #193f98;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }.introduction-title {
   -webkit-animation: fadein 1s;
           animation: fadein 1s;
@@ -87558,7 +87554,11 @@ html, body, #app {
   color: #193f98;
   margin: 25px 0px 25px 0px;
 }
-.star {
+.link {
+  color: #193f98;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}.star {
   display: flex;
 }
 
@@ -87576,16 +87576,6 @@ html, body, #app {
   border-radius: 50%;
   background-color: lightgray;
   margin: 1px
-}.footer {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  padding: 15px;
-  background-color: lightgray;
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
 }.completed {
   background-color: darkgreen !important;
 }
@@ -87645,6 +87635,16 @@ html, body, #app {
 
 .nav-list a:hover {
   opacity: 1;
+}.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 15px;
+  background-color: lightgray;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
 }.event {
   list-style: none;
   position: relative;
