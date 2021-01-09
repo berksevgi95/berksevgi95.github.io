@@ -13,6 +13,20 @@ const Experiences = ({
                 <h1 className="title">Experiences</h1>
                 <Timeline className="pl-6">
                     <Event
+                        title="Full-Stack Developer"
+                        subtitle="Alyo Inc., Ankara, Turkey"
+                        dateInterval="2020-08 - Current"
+                    >
+                        <ul>
+                            <li>
+                                Currently working as developer and supporter on Anvato Media Content Platform, a GCP based platform for encoding, editing, publishing and distribution video across platforms.
+                            </li>
+                            <li>
+                                Worked on the Lura project which is an environment of content right management, entitlements, access and monetization of media assets.
+                            </li>
+                        </ul>
+                    </Event>
+                    <Event
                         title="Front-End Developer"
                         subtitle="DataBoss Security & Analytics, Ankara, Turkey"
                         dateInterval="2020-05 - 2020-08"
