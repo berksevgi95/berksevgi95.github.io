@@ -3,13 +3,14 @@
   "version": "0.1.1",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server",
-    "build": "cross-env NODE_ENV=production webpack --no-progress"
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "^7.15.3",
     "@webpack-cli/serve": "^1.5.2",
     "autoprefixer": "^9.5.1",
     "babel-eslint": "^10.1.0",
@@ -22,8 +23,7 @@
     "style-loader": "^0.20.3",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.3.0",
-    "webpack-dev-server": "^4.0.0",
-    "@babel/runtime": "^7.15.3"
+    "webpack-dev-server": "^4.0.0"
   },
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
