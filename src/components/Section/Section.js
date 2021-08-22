@@ -23,11 +23,11 @@ const Section = () => {
 
     return (
         <main ref={mainRef}>
-            <div
+            {/* <div
                 style={{
                     height: '100vh'
                 }}
-            />
+            /> */}
             {routes && routes.length > 0 && routes.map(route => (
                 <route.component
                     key={route.index}

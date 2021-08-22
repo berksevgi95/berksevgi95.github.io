@@ -12,30 +12,11 @@ const App = () => {
         <React.Fragment>
             <Nav />
             <Section />
-
-            {/* <div style={{
-                height: '100vh'
-            }} />
-
-            <div style={{
-                height: '100vh'
-            }}>
-                asdkasd
-            </div>
-
-            <div style={{
-                height: '100vh'
-            }}>
-                asdkasd
-            </div>
-
-            <div style={{
-                height: '100vh'
-            }}>
-                asdkasd
-            </div> */}
         </React.Fragment>
     )
+    // return (
+    //     <Section />
+    // )
 }
 
 ReactDOM.render(
