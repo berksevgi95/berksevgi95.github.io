@@ -14,14 +14,14 @@ const Activities = ({
     id
 }) => {
     return (
-        <article id={id} className="h-full overflow-auto view">
-            <div className="h-full md:h-auto">
+        <article id={id} className="activities article">
+            <div>
                 <h1 className="title">Activities</h1>
                 <div>
                     <h3>Participated Events & Courses</h3>
-                    <ul className="list-none p-0">
-                        <li className="flex items-center">
-                            <div className="pin">
+                    <ul className="activities-list">
+                        <li className="activities-list-item">
+                            <div className="activities-list-item-icon">
                                 <TrophyOutlined />
                             </div>
                             <div>
@@ -35,8 +35,8 @@ const Activities = ({
                                 </div>
                             </div>
                         </li>
-                        <li className="flex items-center">
-                            <div className="pin">
+                        <li className="activities-list-item">
+                            <div className="activities-list-item-icon">
                                 <EditOutlined />
                             </div>
                             <div>
@@ -52,17 +52,17 @@ const Activities = ({
                         </li>
                     </ul>
                     <h3>Hobbies</h3>
-                    <ul className="list-none p-0">
-                        <li className="flex items-center">
-                            <div className="pin">
+                    <ul className="activities-list">
+                        <li className="activities-list-item">
+                            <div className="activities-list-item-icon">
                                 <CameraOutlined />
                             </div>
                             <div>
                                 Amateur photography
                             </div>
                         </li>
-                        <li className="flex items-center">
-                            <div className="pin">
+                        <li className="activities-list-item">
+                            <div className="activities-list-item-icon">
                                 <CommentOutlined />
                             </div>
                             <div>
@@ -73,7 +73,7 @@ const Activities = ({
                 </div>
             </div>
             <footer className="footer">
-                <span className="flex items-center">
+                <span>
                     Made by BS with <HeartOutlined className="ml-1" />
                 </span>
             </footer>

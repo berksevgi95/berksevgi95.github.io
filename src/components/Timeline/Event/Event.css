@@ -3,26 +3,32 @@
     position: relative;
 }
 
-.event .list-item {
+.event-list-item {
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.event-list-item-icon {
     position: absolute;
     width: 1px;
     left: 0px;
-    top: 30px;
-    background-color: grey;
+    top: 50%;
+    background-color: lightgrey;
     height: 100%;
     z-index: 1;
 }
 
-.event .list-item::before {
+.event-list-item-icon::before {
     content: "";
-    width: 11px;
-    height: 11px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-    background-color: #193f98;
+    background-color: black;
     display: flex;
-    margin-left: -5px;
+    margin-left: -6px;
 }
 
-.event:last-child .list-item{
+.event:last-child .event-list-item-icon{
     height: 0px
 }

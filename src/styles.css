@@ -1,13 +1,13 @@
 @font-face {
-    font-family: Century Gothic;
-    src: url('assets/ttf/CenturyGothicRegular.ttf');
+    font-family: Arial;
+    src: url('assets/woff/ARIAL.woff');
 }
 
-@tailwind base;
+@font-face {
+    font-family: Arial-Bold;
+    src: url('assets/woff/ARIALBD.woff');
+}
 
-@tailwind components;
-
-@tailwind utilities;
 
 @keyframes fadein {
     from {
@@ -21,60 +21,28 @@
 }
 
 html, body, #app {
-    height: 100%;
     width: 100%;
-    font-family: Century Gothic;
+    font-family: Arial;
     margin: 0px;
     display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
 }
 
-#spinner {
-    background: url('assets/svg/gears.svg') no-repeat fixed center;
-    height: 100%;
-}
-
-.continue {
-    animation: fadein 1s;
-    animation-fill-mode: both;
-    animation-delay: 2s;
-    font-size: 17.5px;
-    margin: 25px 0px 25px 0px;
-}
-
-.continue > a{
-    color: inherit;
-    text-decoration: none;
-}
-
-.continue > a > span{
-    color: #193f98;
-}
-
-.view {
-    display: flex;
-    align-items: center;
-    padding: 50px;
-    box-sizing: border-box;
-    position: relative;
+.article {
+    padding: 75px;
+	display: flex;
+	align-items: center;
 }
 
 .title {
-    font-size: 25px;
-    color: #193f98;
-    margin: 25px 0px 25px 0px;
+    font-size: 50px
 }
 
-.pin {
-    height: 30px;
-    width: 30px;
-    min-width: 30px;
-    display: flex;
-    border-radius: 50%;
-    background-color: #193f98;
-    margin: 10px;
+.container {
+    width: 50%;
 }
 
-.pin > span {
-    margin: auto;
-    color: white
+.full-container {
+    width: 100%;
 }

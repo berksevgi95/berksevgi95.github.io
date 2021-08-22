@@ -14,6 +14,9 @@ const App = () => {
             <Section />
         </React.Fragment>
     )
+    // return (
+    //     <Section />
+    // )
 }
 
 ReactDOM.render(

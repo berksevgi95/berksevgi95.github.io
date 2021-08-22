@@ -1,3 +1,24 @@
+.activities {
+    height: 100vh;
+    position: relative;
+}
+
+.activities-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.activities-list-item {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.activities-list-item-icon {
+    margin-right: 15px;
+}
+
 .footer {
     position: absolute;
     bottom: 0px;

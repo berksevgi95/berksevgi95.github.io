@@ -1,28 +1,63 @@
 import React from 'react';
-
-import { ArrowRightOutlined } from '@ant-design/icons';
-
-import './Introduction.css'
+import Rellax from 'rellax';
 
 const Introduction = ({
-    id
+	id,
+	...props
 }) => {
 
-    return (
-        <article id={id} className="h-full overflow-auto view">
-            <div>
-                <h1 className="introduction-title">
-                    <b>Berk Sevgi</b>
-                </h1>
-                <h3 className="introduction-subtitle">
-                    <b>Software Engineer</b>
-                </h3>
-                <div className="continue">
-                    <a href="#whoami">Discover Me <ArrowRightOutlined /></a>
-                </div>
-            </div>
-        </article>
-    )
+	const articleRef = React.useRef();
+
+	const [dimensions, setDimensions] = React.useState();
+
+	React.useEffect(() => {
+		setDimensions({
+			x: articleRef.current.offsetWidth,
+			y: articleRef.current.offsetHeight
+		})
+
+		new Rellax('#aaa')
+	}, [])
+
+	return (
+		<article
+			id={id}
+			ref={articleRef}
+			style={{
+				height: '100vh',
+				position: 'relative',
+				zIndex: 20
+			}}
+		>
+			{dimensions && (
+				<img src={`https://picsum.photos/${dimensions.x}/${dimensions.y}?grayscale`}/>
+			)}
+
+			<h1
+				id="aaa"
+				style={{
+					position: 'absolute',
+					bottom: 0,
+					padding: 75,
+					color: '#ffffff',
+					fontSize: 100,
+					margin: 0,
+					display: 'flex',
+					flexDirection: 'column'
+				}}
+			>
+				Berk Sevgi
+				<span
+					style={{
+						fontSize: 20,
+						marginLeft: 5
+					}}
+				>
+					Software Engineer
+				</span>
+			</h1>
+		</article>
+	)
 }
 
 export default Introduction;
