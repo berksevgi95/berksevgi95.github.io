@@ -1,4 +1,4 @@
-import Introduction from "../views/Introduction/Introduction";
+// import Introduction from "../views/Introduction/Introduction";
 import Whoami from "../views/Whoami/Whoami";
 import PersonalInformation from "../views/PersonalInformation/PersonalInformation";
 import Experiences from "../views/Experiences/Experiences";
@@ -7,11 +7,6 @@ import Projects from "../views/Projects/Projects";
 import Activities from "../views/Activities/Activities";
 
 export default [{
-    index: 0,
-    path: 'introduction',
-    title: "Introduction",
-    component: Introduction
-}, {
     index: 1,
     path: 'whoami',
     title: "Who am I?",
@@ -31,12 +26,12 @@ export default [{
     path: 'technical-skills',
     title: "Technical Skills",
     component: TechnicalSkills
-}, {
+}, /* {
     index: 5,
     path: 'projects',
     title: "Projects",
     component: Projects
-}, {
+}, */ {
     index: 6,
     path: 'activities',
     title: "Activities",

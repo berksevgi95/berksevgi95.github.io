@@ -9,7 +9,7 @@ const Timeline = ({
     children
 }) => {
     return (
-        <ul className={`relative ${className}`}>
+        <ul className={`timeline ${className}`}>
             {children}
         </ul>
     )

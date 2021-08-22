@@ -41,7 +41,7 @@ const Projects = ({
     }
 
     return (
-        <article id={id} className="h-full overflow-auto view">
+        <article id={id} className="projects article">
             <div className="relative w-full h-full md:h-auto">
                 <h1 className="title">Projects</h1>
 

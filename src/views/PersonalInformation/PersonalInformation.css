@@ -1,5 +1,19 @@
-.link {
-    color: #193f98;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.personal-information {
+    height: 100vh;
+}
+
+.personal-information-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.personal-information-list-item {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.personal-information-list-item-icon {
+    margin-right: 15px;
 }

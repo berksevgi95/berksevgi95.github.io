@@ -1,0 +1,14 @@
+.technical-skills-titles {
+	display: flex;
+	justify-content: space-between;
+}
+
+.technical-skills-items {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.technical-skills-items-title {
+	margin-left: 10px;
+}

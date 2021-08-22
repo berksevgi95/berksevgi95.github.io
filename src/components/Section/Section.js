@@ -3,7 +3,7 @@ import routes from '../../config/routes';
 
 const Section = () => {
 
-    const ref = React.useRef()
+    const mainRef = React.useRef()
 
     React.useEffect(() => {
         handleHashChange()
@@ -15,14 +15,19 @@ const Section = () => {
 
     const handleHashChange = () => {
         if (routes && routes.length > 0 && window.location.hash) {
-            ref.current.scrollTop = routes.find(
+            mainRef.current.scrollTop = routes.find(
                 route => '#' + route.path === window.location.hash
             ).index * window.innerHeight
         }
     }
 
     return (
-        <main ref={ref} className="w-full overflow-auto">
+        <main ref={mainRef}>
+            <div
+                style={{
+                    height: '100vh'
+                }}
+            />
             {routes && routes.length > 0 && routes.map(route => (
                 <route.component
                     key={route.index}

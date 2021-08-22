@@ -10,82 +10,75 @@ import './Nav.css'
 
 const Nav = () => {
 
-    const [collapse, setCollapse] = React.useState(false)
-    const [currHash, setCurrHash] = React.useState(window.location.hash)
+    const titleRef = React.useRef();
+    const containerRef = React.useRef();
+    const subtitlesRef = React.useRef();
 
-    const handleHashChange = () => {
-        setCurrHash(window.location.hash)
-    }
-
-    React.useState(() => {
-        window.addEventListener('hashchange', handleHashChange, true)
+    React.useEffect(() => {
+        window.addEventListener('scroll', onScroll)
 
         return () => {
-            window.removeEventListener('hashchange', handleHashChange, true)
+            window.removeEventListener('scroll', onScroll)
         }
-    })
+    }, [])
 
-    const toggleNavbar = () => {
-        setCollapse(!collapse)
+    const onScroll = (e) => {
+        if (window.pageYOffset > window.innerHeight / 2) {
+            titleRef.current.style.top = '0%'
+            titleRef.current.style.fontSize = '25px'
+            titleRef.current.style.padding = '25px'
+            containerRef.current.style.opacity = '1'
+            subtitlesRef.current.style.opacity = '0'
+        } else {
+            titleRef.current.style.top = 'calc(50% - ' + window.pageYOffset + 'px)';
+            titleRef.current.style.fontSize = 100 - ((75 / (window.innerHeight / 2)) * window.pageYOffset) + 'px'
+            titleRef.current.style.padding = 100 - ((75 / (window.innerHeight / 2)) * window.pageYOffset) + 'px'
+            containerRef.current.style.opacity = ((1 / (window.innerHeight / 2)) * window.pageYOffset)
+            subtitlesRef.current.style.opacity = 1 - ((1 / (window.innerHeight / 2)) * window.pageYOffset)
+        }
     }
 
     return (
-        <React.Fragment>
-            <nav className="nav w-1/3 items-center hidden md:flex justify-end">
-                <ul className="nav-list">
-                    {routes && routes.length > 0 && routes.map(route => {
-                        const isActive = currHash === ('#' + route.path) ||
-                            (currHash === '' && route.path === 'introduction')
-                        return (
-                            <li key={route.index}>
-                                <a
-                                    className={`${isActive ? 'active' : ''}`}
-                                    href={`#${route.path}`}
-                                >
-                                    {route.title}
-                                </a>
-                            </li>
-                        )
-                    })}
-                </ul>
-            </nav>
-            <header className="flex md:hidden header">
-                <MenuOutlined
-                    onClick={toggleNavbar}
-                    className="text-2xl"
-                    style={{ color: '#193f98' }}
-                />
-            </header>
-            <nav
-                style={{ transform: `translateX(${!collapse ? -100 : 0}%)` }}
-                className="nav collapsed flex md:hidden w-full"
-                onClick={toggleNavbar}
+        <nav className="nav">
+            <h1 
+                style={{
+                    top: 'calc(50% - 0px)',
+                    fontSize: '100px',
+                    padding: 100,
+                    paddingBottom: 0
+                }} 
+                ref={titleRef} 
+                className="nav-title"
             >
-                <div className="flex md:hidden header">
-                    <CloseOutlined
-                        className="text-2xl"
-                        style={{ color: 'white' }}
-                    />
-                </div>
-                <ul className="nav-list">
-                    {routes && routes.length > 0 && routes.map(route => {
-                        const isActive = currHash === ('#' + route.path) ||
-                            (currHash === '' && route.path === 'introduction')
-                        return (
-                            <li key={route.index}>
-                                <a
-                                    className={`${isActive ? 'active' : ''}`}
-                                    href={`#${route.path}`}
-                                >
-                                    {route.title}
-                                </a>
-                            </li>
-                        )
-                    })}
+                Berk Sevgi
+                <ul 
+                    ref={subtitlesRef}
+                    className="nav-subtitles"
+                >
+                    <li>
+                        Software Engineer
+                    </li>
                 </ul>
-            </nav>
-        </React.Fragment>
-
+            </h1>
+            <ul 
+                ref={containerRef}
+                className="nav-container"
+                style={{
+                    opacity: 0
+                }}
+            >
+                {routes && routes.length > 0 && routes.map(route => (
+                    <li key={route.index}>
+                        <a
+                            className="nav-link"
+                            href={`#${route.path}`}
+                        >
+                            {route.title}
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </nav>
     )
 }
 

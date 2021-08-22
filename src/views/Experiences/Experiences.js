@@ -8,8 +8,8 @@ const Experiences = ({
     id
 }) => {
     return (
-        <article id={id} className="h-full overflow-auto view">
-            <div className="w-full h-full">
+        <article id={id} className="experiences article">
+            <div>
                 <h1 className="title">Experiences</h1>
                 <Timeline className="pl-6">
                     <Event
@@ -82,9 +82,6 @@ const Experiences = ({
                         </div>
                     </Event>
                 </Timeline>
-                <div className="continue">
-                    <a href="#technical-skills">Click to continue <ArrowRightOutlined /></a>
-                </div>
             </div>
         </article>
     )
