@@ -31,12 +31,12 @@ export default [{
     path: 'technical-skills',
     title: "Technical Skills",
     component: TechnicalSkills
-}, /* {
+}, {
     index: 5,
     path: 'projects',
     title: "Projects",
     component: Projects
-}, */ {
+}, {
     index: 6,
     path: 'activities',
     title: "Activities",

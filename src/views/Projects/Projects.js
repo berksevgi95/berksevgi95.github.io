@@ -42,114 +42,254 @@ const Projects = ({
 
     return (
         <article id={id} className="projects article">
-            <div className="relative w-full h-full md:h-auto">
+            <div>
                 <h1 className="title">Projects</h1>
 
-                <div className="flex">
+                <div className="projects-container">
                     <div
-                        className="h-full flex"
-                        style={{ display: 'contents' }}
+                        className="project-arrows-right"
                         onClick={handleSwipeLeft}
                     >
                         <LeftOutlined className="m-auto" />
                     </div>
                     <SwipeableViews index={index} enableMouseEvents>
-                        <div className="w-full">
-                            <div className="md:flex items-center justify-between">
+                        <div>
+                            <div>
                                 <h3>Vehicle Admin Page</h3>
-                                <div className="flex items-center">
-                                    <div className="pin">
-                                        <SyncOutlined />
-                                    </div>
+                                <div 
+                                    style={{
+                                        display: 'flex',
+                                        marginBottom: 15
+                                    }}
+                                >
+                                    <SyncOutlined
+                                        style={{
+                                            marginRight: 10
+                                        }}
+                                    />
                                     On Development
                                 </div>
                             </div>
                             <div>
                                 Hypothetic vehicle admin page implemented with BS-UI
                             </div>
-                            <div className="mt-2">
+                            <p>
                                 Check live <a className="link" href="https://suspicious-mcnulty-9f5041.netlify.app">demo</a>
-                            </div>
-                            <AutoPlaySwipeableViews className="mt-8" enableMouseEvents>
-                                <img src={VAP1} className="w-full md:w-1/3 m-auto" />
-                                <img src={VAP2} className="w-full md:w-1/3 m-auto" />
-                                <img src={VAP3} className="w-full md:w-1/3 m-auto" />
-                                <img src={VAP4} className="w-full md:w-1/3 m-auto" />
+                            </p>
+                            <AutoPlaySwipeableViews 
+                                enableMouseEvents
+                                style={{
+                                    marginTop: 30
+                                }}
+                            >
+                                <div
+                                    style={{
+                                        display: 'flex'
+                                    }}
+                                >
+                                    <img 
+                                        src={VAP1} 
+                                        style={{
+                                            margin: 'auto',
+                                            width: '50%'
+                                        }}
+                                    />
+                                </div>
+                                <div
+                                    style={{
+                                        display: 'flex'
+                                    }}
+                                >
+                                    <img 
+                                        src={VAP2} 
+                                        style={{
+                                            margin: 'auto',
+                                            width: '50%'
+                                        }}
+                                    />
+                                </div>
+                                <div
+                                    style={{
+                                        display: 'flex'
+                                    }}
+                                >
+                                    <img 
+                                        src={VAP3} 
+                                        style={{
+                                            margin: 'auto',
+                                            width: '50%'
+                                        }}
+                                    />
+                                </div>
+                                <div
+                                    style={{
+                                        display: 'flex'
+                                    }}
+                                >
+                                    <img 
+                                        src={VAP4} 
+                                        style={{
+                                            margin: 'auto',
+                                            width: '50%'
+                                        }}
+                                    />
+                                </div>
                             </AutoPlaySwipeableViews>
                         </div>
-                        <div className="w-full">
-                            <div className="md:flex items-center justify-between">
+                        <div>
+                            <div>
                                 <h3>BS Trivia</h3>
-                                <div className="flex items-center">
-                                    <div className="pin completed">
-                                        <CheckOutlined />
-                                    </div>
+                                <div 
+                                    style={{
+                                        display: 'flex',
+                                        marginBottom: 15
+                                    }}
+                                >
+                                    <CheckOutlined
+                                        style={{
+                                            marginRight: 10
+                                        }}
+                                    />
                                     Completed
                                 </div>
                             </div>
                             <div>
                                 Yet another simple trivia game made by BS
-                        </div>
-                            <div className="mt-2">
-                                Check live <a className="link" href="https://boring-johnson-478048.netlify.app/">demo</a>
                             </div>
-                            <AutoPlaySwipeableViews className="mt-8" enableMouseEvents>
-                                <img src={BSTrivia1} className="w-full md:w-1/3 m-auto" />
-                                <img src={BSTrivia2} className="w-full md:w-1/3 m-auto" />
-                                <img src={BSTrivia3} className="w-full md:w-1/3 m-auto" />
+                            <p>
+                                Check live <a className="link" href="https://boring-johnson-478048.netlify.app/">demo</a>
+                            </p>
+                            <AutoPlaySwipeableViews 
+                                enableMouseEvents
+                                style={{
+                                    marginTop: 30
+                                }}
+                            >
+                                <div
+                                    style={{
+                                        display: 'flex'
+                                    }}
+                                >
+                                    <img 
+                                        src={BSTrivia1} 
+                                        style={{
+                                            margin: 'auto',
+                                            width: '50%'
+                                        }}
+                                    />
+                                </div>
+                                <div
+                                    style={{
+                                        display: 'flex'
+                                    }}
+                                >
+                                    <img 
+                                        src={BSTrivia2} 
+                                        style={{
+                                            margin: 'auto',
+                                            width: '50%'
+                                        }}
+                                    />
+                                </div>
+                                <div
+                                    style={{
+                                        display: 'flex'
+                                    }}
+                                >
+                                    <img 
+                                        src={BSTrivia3} 
+                                        style={{
+                                            margin: 'auto',
+                                            width: '50%'
+                                        }}
+                                    />
+                                </div>
                             </AutoPlaySwipeableViews>
                         </div>
-                        <div className="w-full">
-                            <div className="md:flex items-center justify-between">
+                        <div>
+                            <div>
                                 <h3>What the Food - A Fast-Food Price Estimator</h3>
-                                <div className="flex items-center">
-                                    <div className="pin obsolete">
-                                        <WarningOutlined />
-                                    </div>
-                                Obsolete
-                            </div>
+                                <div 
+                                    style={{
+                                        display: 'flex',
+                                        marginBottom: 15
+                                    }}
+                                >
+                                    <WarningOutlined
+                                        style={{
+                                            marginRight: 10
+                                        }}
+                                    />
+                                    Obsolete
+                                </div>
                             </div>
                             <div>
                                 Interpreter of a given image as basic classification problems with using pre-learned Neural Networks and make price assesment with respect to result of these interpretations.
-                        </div>
-                            <img src={WhatTheFood} className="w-full mt-4 md:w-1/4 m-auto" />
-                        </div>
-                        <div className="w-full">
-                            <div className="md:flex items-center justify-between">
-                                <h3>Homemade Drum Pad</h3>
-                                <div className="flex items-center">
-                                    <div className="pin completed">
-                                        <CheckOutlined />
-                                    </div>
-                                Completed
                             </div>
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    marginTop: 30
+                                }}
+                            >
+                                <img
+                                    src={WhatTheFood}
+                                    style={{
+                                        margin: 'auto'
+                                    }}
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>Homemade Drum Pad</h3>
+                                <div 
+                                    style={{
+                                        display: 'flex',
+                                        marginBottom: 15
+                                    }}
+                                >
+                                    <CheckOutlined
+                                        style={{
+                                            marginRight: 10
+                                        }}
+                                    />
+                                    Completed
+                                </div>
                             </div>
                             <div>
                                 Midi electronic drum kit implementation with TIVA LaunchPad and the help of <a className="link" href="https://github.com/CemalUnal">@CemalUnal</a>
                             </div>
-                            <iframe
-                                title="Midi Electronic Drum Kit"
-                                className="w-full md:w-1/3 mt-4 m-auto"
-                                src="https://www.youtube.com/embed/4qsMQLfBxyE"
-                                height={250}
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            ></iframe>
+                            <div
+                                style={{
+                                    marginTop: 30,
+                                    display: 'flex'
+                                }}
+                            >
+                                <iframe
+                                    title="Midi Electronic Drum Kit"
+                                    className="w-full md:w-1/3 mt-4 m-auto"
+                                    src="https://www.youtube.com/embed/4qsMQLfBxyE"
+                                    height={480}
+                                    width={640}
+                                    style={{
+                                        margin: 'auto'
+                                    }}
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                />
+                            </div>
                         </div>
                     </SwipeableViews>
                     <div
-                        className="h-full flex"
-                        style={{ display: 'contents' }}
+                        className="project-arrows-left"
                         onClick={handleSwipeRight}
                     >
                         <RightOutlined className="m-auto" />
                     </div>
                 </div>
 
-                <div className="continue">
-                    <a href="#activities">Click to continue <ArrowRightOutlined /></a>
-                </div>
             </div>
         </article>
     )

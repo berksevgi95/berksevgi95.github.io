@@ -9,3 +9,21 @@
 .link {
     color: #193f98;
 }
+
+.projects-container {
+    display: flex;
+    align-items: center;
+}
+
+.sv-context {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-arrows-left {
+    margin-left: 50px;
+}
+
+.project-arrows-right {
+    margin-right: 50px;
+}
