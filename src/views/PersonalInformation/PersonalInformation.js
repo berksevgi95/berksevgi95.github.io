@@ -16,7 +16,7 @@ const PersonalInformation = ({
     id
 }) => {
     return (
-        <article id={id} className="personal-information article">
+        <section id={id} className="personal-information article">
             <div className="container">
                 <h1 className="title">Personal Information</h1>
                 <div>
@@ -74,7 +74,7 @@ const PersonalInformation = ({
                     </Timeline>
                 </div>
             </div>
-        </article>
+        </section>
     )
 }
 

@@ -8,15 +8,34 @@ import './styles.css'
 
 
 const App = () => {
+    // return (
+    //     <React.Fragment>
+    //         <Section />
+    //         <Nav />
+    //     </React.Fragment>
+    // )
+
     return (
         <React.Fragment>
+            {/* <article
+                style={{
+                    flex: 1
+                }}
+            >
+                <section>
+                    adasd
+                </section>
+                <section>
+                    adasd
+                </section>
+                <section>
+                    adasd
+                </section>
+            </article> */}
+            <Section></Section>
             <Nav />
-            <Section />
         </React.Fragment>
     )
-    // return (
-    //     <Section />
-    // )
 }
 
 ReactDOM.render(

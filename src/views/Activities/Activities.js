@@ -14,7 +14,7 @@ const Activities = ({
     id
 }) => {
     return (
-        <article id={id} className="activities article">
+        <section id={id} className="activities article">
             <div>
                 <h1 className="title">Activities</h1>
                 <div>
@@ -77,7 +77,7 @@ const Activities = ({
                     Made by BS with <HeartOutlined className="ml-1" />
                 </span>
             </footer>
-        </article>
+        </section>
     )
 }
 

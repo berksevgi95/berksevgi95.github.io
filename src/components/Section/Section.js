@@ -1,5 +1,6 @@
 import React from 'react';
 import routes from '../../config/routes';
+import Introduction from '../../views/Introduction/Introduction';
 
 const Section = () => {
 
@@ -22,19 +23,24 @@ const Section = () => {
     }
 
     return (
-        <main ref={mainRef}>
+        <article 
+            style={{
+                flex: 1
+            }}
+            ref={mainRef}>
             {/* <div
                 style={{
                     height: '100vh'
                 }}
             /> */}
+            <Introduction />
             {routes && routes.length > 0 && routes.map(route => (
                 <route.component
                     key={route.index}
                     id={route.path}
                 />
             ))}
-        </main>
+        </article>
     )
 }
 

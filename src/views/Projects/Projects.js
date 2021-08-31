@@ -41,7 +41,7 @@ const Projects = ({
     }
 
     return (
-        <article id={id} className="projects article">
+        <section id={id} className="projects article">
             <div>
                 <h1 className="title">Projects</h1>
 
@@ -291,7 +291,7 @@ const Projects = ({
                 </div>
 
             </div>
-        </article>
+        </section>
     )
 }
 

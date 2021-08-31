@@ -9,7 +9,7 @@ const TechnicalSkills = ({
     id
 }) => {
     return (
-        <article id={id} className="technical-skills article">
+        <section id={id} className="technical-skills article">
             <div className="full-container">
                 <h1 className="title">Technical Skills</h1>
                 <div className="technical-skills-titles">
@@ -147,7 +147,7 @@ const TechnicalSkills = ({
                     </div>
                 </div>
             </div>
-        </article>
+        </section>
     )
 }
 

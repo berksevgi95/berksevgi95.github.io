@@ -156,26 +156,24 @@
     justify-content: flex-end;
 }
 .nav {
-    height: 75px;
     background: white;
-    position: fixed;
     top: 0px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    z-index: 10
+    z-index: 10;
+    border: 1px solid lightgrey;
+    width: 200px;
 }
 
 .nav-list {
-    display: flex;
     list-style: none;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    padding: 25px;
 }
 
 .nav-list-item {
-    margin-left: 25px
+    margin-bottom: 10px;
 }
 
 .nav-list-item-link {
@@ -213,7 +211,7 @@ html, body, #app {
     font-family: Arial;
     margin: 0px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     scroll-behavior: smooth;
 }
 

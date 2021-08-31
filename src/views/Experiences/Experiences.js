@@ -8,7 +8,7 @@ const Experiences = ({
     id
 }) => {
     return (
-        <article id={id} className="experiences article">
+        <section id={id} className="experiences article">
             <div>
                 <h1 className="title">Experiences</h1>
                 <Timeline className="pl-6">
@@ -83,7 +83,7 @@ const Experiences = ({
                     </Event>
                 </Timeline>
             </div>
-        </article>
+        </section>
     )
 }
 

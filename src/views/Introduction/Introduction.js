@@ -20,43 +20,49 @@ const Introduction = ({
 	}, [])
 
 	return (
-		<article
-			id={id}
-			ref={articleRef}
+		<section
 			style={{
 				height: '100vh',
-				position: 'relative',
-				zIndex: 20
 			}}
 		>
-			{dimensions && (
-				<img src={`https://picsum.photos/${dimensions.x}/${dimensions.y}?grayscale`}/>
-			)}
-
-			<h1
-				id="aaa"
+			<div
+				ref={articleRef}
 				style={{
 					position: 'absolute',
-					bottom: 0,
-					padding: 75,
-					color: '#ffffff',
-					fontSize: 100,
-					margin: 0,
-					display: 'flex',
-					flexDirection: 'column'
+					height: '100%',
+					width: '100%',
+					zIndex: 20,
 				}}
 			>
-				Berk Sevgi
-				<span
+				{dimensions && (
+					<img src={`https://picsum.photos/${dimensions.x}/${dimensions.y}?grayscale`}/>
+				)}
+
+				<h1
+					id="aaa"
 					style={{
-						fontSize: 20,
-						marginLeft: 5
+						position: 'absolute',
+						bottom: 0,
+						padding: 75,
+						color: '#ffffff',
+						fontSize: 100,
+						margin: 0,
+						display: 'flex',
+						flexDirection: 'column'
 					}}
 				>
-					Software Engineer
-				</span>
-			</h1>
-		</article>
+					Berk Sevgi
+					<span
+						style={{
+							fontSize: 20,
+							marginLeft: 5
+						}}
+					>
+						Software Engineer
+					</span>
+				</h1>
+			</div>
+		</section>
 	)
 }
 

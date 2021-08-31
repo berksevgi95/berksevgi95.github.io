@@ -25,7 +25,7 @@ html, body, #app {
     font-family: Arial;
     margin: 0px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     scroll-behavior: smooth;
 }
 
