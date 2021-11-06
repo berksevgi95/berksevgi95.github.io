@@ -9,7 +9,7 @@ const Experiences = ({
 }) => {
     return (
         <section id={id} className="experiences article">
-            <div>
+            <div className="content">
                 <h1 className="title">Experiences</h1>
                 <Timeline className="pl-6">
                     <Event

@@ -20,6 +20,15 @@
     }
 }
 
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 html, body, #app {
     width: 100%;
     font-family: Arial;
@@ -45,4 +54,22 @@ html, body, #app {
 
 .full-container {
     width: 100%;
+}
+
+@media only screen and (max-width: 599px) {
+    html, body, #app {
+        font-size: 12px;
+    }
+
+    .article {
+        padding: 25px;
+    }
+
+    .title {
+        font-size: 25px
+    }
+
+    .container {
+        width: 100%;
+    }
 }

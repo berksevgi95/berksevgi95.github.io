@@ -1,6 +1,10 @@
 import React from 'react';
 import Rellax from 'rellax';
 
+import Loading from '../../assets/png/loading.png'
+
+import './Introduction.css'
+
 const Introduction = ({
 	id,
 	...props
@@ -9,6 +13,7 @@ const Introduction = ({
 	const articleRef = React.useRef();
 
 	const [dimensions, setDimensions] = React.useState();
+	const [imgLoaded, setImgLoaded] = React.useState(false);
 
 	React.useEffect(() => {
 		setDimensions({
@@ -16,7 +21,7 @@ const Introduction = ({
 			y: articleRef.current.offsetHeight
 		})
 
-		new Rellax('#aaa')
+		new Rellax('#header')
 	}, [])
 
 	return (
@@ -35,29 +40,36 @@ const Introduction = ({
 				}}
 			>
 				{dimensions && (
-					<img src={`https://picsum.photos/${dimensions.x}/${dimensions.y}?grayscale`}/>
+					<img 
+						onLoad={() => setImgLoaded(true)} 
+						src={`https://picsum.photos/${dimensions.x}/${dimensions.y}?grayscale`}
+					/>
 				)}
-
-				<h1
-					id="aaa"
-					style={{
-						position: 'absolute',
-						bottom: 0,
-						padding: 75,
-						color: '#ffffff',
-						fontSize: 100,
-						margin: 0,
-						display: 'flex',
-						flexDirection: 'column'
-					}}
-				>
-					Berk Sevgi
-					<span
+				{!imgLoaded && (
+					<div
 						style={{
-							fontSize: 20,
-							marginLeft: 5
+							position: 'fixed',
+							top: 0,
+							left: 0,
+							width: '100%',
+							height: '100%',
+							background: 'white',
+							display: 'flex',
+							zIndex: 100
 						}}
 					>
+						<img
+							style={{
+								margin: 'auto',
+								animation: 'rotation 2s infinite linear'
+							}}
+							src={Loading} 
+						/>
+					</div>
+				)}
+				<h1 id="header">
+					Berk Sevgi
+					<span>
 						Software Engineer
 					</span>
 				</h1>
