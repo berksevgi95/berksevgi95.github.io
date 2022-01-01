@@ -45,7 +45,7 @@
     position: absolute;
     width: 1px;
     left: 0px;
-    top: 50%;
+    top: 25%;
     background-color: lightgrey;
     height: 100%;
     z-index: 1;
@@ -53,16 +53,28 @@
 
 .event-list-item-icon::before {
     content: "";
-    width: 13px;
-    height: 13px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background-color: black;
     display: flex;
-    margin-left: -6px;
+    margin-left: -5px;
 }
 
 .event:last-child .event-list-item-icon{
     height: 0px
+}
+
+.event .bright {
+    color: grey
+}
+
+.event .brighter {
+    color: lightgrey
+}
+
+.event .children {
+    margin-top: 10px
 }
 .timeline {
 	position: relative;
