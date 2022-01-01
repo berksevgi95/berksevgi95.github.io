@@ -12,10 +12,10 @@ const Event = ({
         <li className="event">
             <div className="event-list-item-icon" />
             <div className="event-list-item">
-                <div className="w-full font-bold">{title}</div>
-                <div className="w-full">{subtitle}</div>
-                <div className="w-full mt-1 text-xs"><i>{dateInterval}</i></div>
-                <div className="w-full mt-2">{children}</div>
+                <div className="w-full">{title}</div>
+                <div className="w-full bright">{subtitle}</div>
+                <div className="w-full brighter">{dateInterval}</div>
+                <div className="w-full children">{children}</div>
             </div>
         </li>
     )

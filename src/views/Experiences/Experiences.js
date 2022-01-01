@@ -14,12 +14,21 @@ const Experiences = ({
                 <Timeline className="pl-6">
                     <Event
                         title="Full-Stack Developer"
-                        subtitle="Alyo Inc., Ankara, Turkey"
-                        dateInterval="2020-08 - Current"
+                        subtitle="Tomboprint, Ankara, Turkey"
+                        dateInterval="2021-03 - Current"
+                    >
+                        <div>
+                            Currently working as a full-stack developer and responsible for testing & optimization on Tomboprint platform which helps to easily manage printer clusters within a secure way.
+                        </div>
+                    </Event>
+                    <Event
+                        title="Full-Stack Developer"
+                        subtitle="Alyo, Ankara, Turkey"
+                        dateInterval="2020-08 - 2021-03"
                     >
                         <ul>
                             <li>
-                                Currently working as developer and supporter on Anvato Media Content Platform, a GCP based platform for encoding, editing, publishing and distribution video across platforms.
+                                Worked as developer and supporter on Anvato Media Content Platform, a GCP based platform for encoding, editing, publishing and distribution video across platforms.
                             </li>
                             <li>
                                 Worked on the Lura project which is an environment of content right management, entitlements, access and monetization of media assets.
@@ -42,7 +51,7 @@ const Experiences = ({
                     </Event>
                     <Event
                         title="Front-End Developer"
-                        subtitle="Havelsan Inc., Ankara, Turkey"
+                        subtitle="Havelsan, Ankara, Turkey"
                         dateInterval="2019-01 - 2020-05"
                     >
                         <div>
@@ -51,7 +60,7 @@ const Experiences = ({
                     </Event>
                     <Event
                         title="Full-Stack Software Developer"
-                        subtitle="ForteArGe Informatics, Engineering, Consultancy Inc., Ankara, Turkey"
+                        subtitle="ForteArGe Informatics, Engineering, Consultancy, Ankara, Turkey"
                         dateInterval="2017-08 - 2018-12"
                     >
                         <ul>
@@ -65,7 +74,7 @@ const Experiences = ({
                     </Event>
                     <Event
                         title="Intern"
-                        subtitle="ForteArGe Informatics, Engineering, Consultancy Inc., Ankara, Turkey"
+                        subtitle="ForteArGe Informatics, Engineering, Consultancy, Ankara, Turkey"
                         dateInterval="2017-06 - 2017-08"
                     >
                         <div>
