@@ -9,6 +9,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: '/me/',
   build: {
     outDir: 'me',
     emptyOutDir: true
