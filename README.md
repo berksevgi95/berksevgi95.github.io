@@ -1,27 +1,29 @@
-# Berk Sevgi
+# berksevgi95.github.io
 
-Click [here](https://berksevgi95.github.io/me) to see demo
+This template should help get you started developing with Vue 3 in Vite.
 
-To get started, clone the project and install the dependencies:
+## Recommended IDE Setup
 
-```
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-After that, start up Webpack Development Server:
+### Compile and Hot-Reload for Development
 
+```sh
+npm run dev
 ```
-npm start
-```
 
-Webpack Development Server will watch `/src/styles.css` and `/tailwind.js` and rebuild your stylesheet on every change.
+### Compile and Minify for Production
 
-You can play around with `/index.html` to see the effects of your changes.
-
-To build a production bundle run:
-
-```
+```sh
 npm run build
 ```
-
-After that you will have a ready to deploy bundle at `/me`
